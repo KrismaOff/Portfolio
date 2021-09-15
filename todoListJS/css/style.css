@@ -1,0 +1,114 @@
+.container {
+    text-align: center;
+    border-radius: 30px;
+    width: 500px;
+    margin-left:600px;
+}
+h1 {
+    color: rgb(117, 47, 47);
+    font-size: 35px;
+
+}
+
+.input {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(117, 47, 47);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid rgb(117, 47, 47);
+    display: block;
+    margin: auto 15%;
+    height: 30px;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button {
+    width: 100px;
+    margin:15px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid silver;
+    color: rgb(117, 47, 47);
+    font-size: 17px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#info {
+    background-color:rgba(255, 255, 255, 0.671) ;
+    border: 3px solid rgb(117, 47, 47);
+    height: 30px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: rgb(117, 47, 47);
+    cursor: pointer;
+    opacity: .5;
+    display: none;
+}
+
+#error {
+    border: 3px solid rgb(117, 47, 47);
+    height: 30px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    margin-left: 85px;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: rgb(117, 47, 47);
+    cursor: pointer;
+    opacity: .5;
+    display: none;
+}
+
+.button:hover {
+    border: 3px solid rgb(151, 38, 38);
+    color: rgb(151, 38, 38);
+    font-size: 17px;
+}
+
+
+.newBlock {
+    height: 50px;
+    width: 300px;
+    background-color: rgba(192, 192, 192, 0.514);
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(151, 38, 38);
+    font-size: 20px;
+    color: rgb(151, 38, 38);
+    padding-top: 15px;
+}
+
+.wrapper {
+    height: 20px;
+    width: 200px;
+    background-color: rgba(102, 96, 96, 0.514);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 750px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(151, 38, 38);
+    font-size: 15px;
+    color: rgb(126, 13, 13);
+    transition: .3s;
+}
+
+.wrapper:hover {
+    border: 2px solid rgb(151, 38, 38);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.514);
+    cursor: pointer;
+}

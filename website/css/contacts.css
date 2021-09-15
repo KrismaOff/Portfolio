@@ -1,0 +1,81 @@
+@font-face {
+    font-family:Jura;
+    src: url(/font/static/Jura-Bold.ttf);
+}
+
+.numbers {
+
+    width: 50%;
+    height: 600px;
+}
+
+.formNum {
+    background-color:silver;
+    width: 50%;
+    height: 725px;
+}
+
+.contacts .numbers > h1::first-letter {
+    text-decoration: underline;     
+    text-decoration-color: rgb(41, 41, 212);
+}
+
+.contacts .numbers .d-flex > p {
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.contacts .numbers .d-flex > img {
+    height: 80px;
+    width: 80px;
+    margin-top: 5%;
+    margin-right: 50px;
+}
+
+.area {
+    margin-top: 5px;
+}
+
+.blog-footer {
+	width: 100%;
+	text-align: center;
+	background: #f9f9f9;
+	border: 2px solid #e5e5e5;
+	margin-top: 50px;
+	position: relative;
+	border-radius: 12px 12px 0px 0px;
+	padding: 30px 0;
+}
+
+.error {
+    color: rgb(173, 0, 0);
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Jura;
+    display: none;
+}
+
+.input {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-top: 40px;
+    font-family: Jura;
+}
+
+.add {
+    margin-top: 40px;
+    font-family: Jura;
+}
+
+.btn-send {
+    margin: auto;
+    margin-top: 10px;
+}
+
+

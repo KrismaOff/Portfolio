@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Веб блог</title>
+    <link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+	<header class="container p-3 mt-5">
+		<div class="row rowHeader">
+			<div class="col-4 col-md-4 mainIcon">
+				<img src="img/img_329949.png" class="logo" alt="Лого сайта" height="100px">
+				<span class="logo_text">itProger <small>Blog</small></span>
+			</div>
+			<div class="mediaHeaderInput col-4 col-md-3">
+				<input type="search" id="search" class="form-control" placeholder="Поиск" autocomplete="off">
+			</div>
+			<div class="col-4 col-md-5  navigation text-right ">
+				<button type="button" class="btn btn-light"><a href="index.html" class="aInHeader">Главная</a></button>
+				<button type="button" class="btn btn-light"><a href="#" class="aInHeader">Статьи</a></button>
+				<button type="button" class="btn btn-light"><a href="page/contacts.html" class="aInHeader">Контакты</a></button>
+			</div>
+		</div>
+	</header>  
+<!-- / -->
+	<div class="addSearch ">
+		<p>Форма поиска</p>
+		<input type="search" id="search" class="form-control" placeholder="Поиск...">
+		<button class="btn btn-light closeSearch"><span id="closeSearch">Закрыть поиск</span></button>
+	</div>  
+<!-- / -->
+	<div style="background: #9a2f2d!important;" class=" mediaRed jumbotron container mt-5 p-3 p-md-5 text-white rounded bg-dark">
+		<div class="row">
+			<div class="col-md-6 px-0">
+				<h1 class="display-4">3 основные сферы применения языка Python</h1>
+				<p class="lead my-3">До начала активного изучения любого языка программирования правильно было бы задуматься о сферах его применения. Мы расскажем про 3 самые популярные сферы применения языка Python.</p>
+				<p class="lead mb-0"><a href="#"><button class="btn btn-danger">Читать далее</button></a></p>
+			</div>
+			<div class="col-md-6">
+				<img src="https://itproger.com/img/news/rust_lang_1.png" class="img-thumbnail">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row articles">
+			<div class="col-lg-8 col-12 elem">
+				<h3>Новости</h3>
+				<div class="card">
+					<img src="https://itproger.com/img/news/1534765244.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Сравнение движков: Unreal Engine 4 против Unity 5</h5>
+						<p class="card-text">Выбрать движок дело не простое, а особенно когда оба очень хороши. В статье мы проведем сравнение двух программ и выясним какой движок использовать именно Вам!</p>
+						<a href="#" class="btn btn-warning">Читать далее</a>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1534137690.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">7 девушек айтишниц из фильмов и сериалов</h5>
+						<p class="card-text">Много ли вы знаете фильмов и сериалов, где главные персонажы это девушки программисты? Мы подобрали 7 фильмов с такой концепцией.</p>
+						<a href="#" class="btn btn-warning">Читать далее</a>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1532948245.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">11 полезных инструментов для веб-разработчика</h5>
+						<p class="card-text">Разработчики постоянно пытаются сделать свою жизнь проще или расширить собственные возможности. Мы подготовили 11 инструментов, которые это обеспечат.</p>
+						<a href="#" class="btn btn-warning">Читать далее</a>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1534139040.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Что такое Deep Learning? Как работает глубокое обучение?</h5>
+						<p class="card-text">Как работает глубокое обучение и что оно из себя представляет? В ходе статьи мы расскажем про Deep Learning и разберемся с его ключевыми понятиями.</p>
+						<a href="#" class="btn btn-warning">Читать далее</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-12">
+				<h3>Анонсы</h3>
+				<div class="p-3 mb-3 bg-light text-dark rounded mediaAnnouncement">
+					Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+				</div>
+				
+				<div class="p-3 mb-3 bg-info text-light rounded mediaAnnouncement">
+					<img src="https://itproger.com/img/news/1546853933.jpg" class="img-thumbnail">
+					<br><br>
+					<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<button type="button" class="btn btn-light">Читать далее</button>
+				</div>
+			</div>
+		</div>
+		<button class="btn btn-warning btnOpen">Читать ещё...</button>
+	</div>
+	
+<footer class="blog-footer container">
+		<b>Все права защищены &copy;</b>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/0561c95c1c.js" crossorigin="anonymous"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

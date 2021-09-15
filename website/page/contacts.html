@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Веб блог</title>
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/contacts.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+	<header class="container p-3 mt-5">
+		<div class="row rowHeader">
+			<div class="col-4 col-md-4 mainIcon">
+				<img src="/img/img_329949.png" class="logo" alt="Лого сайта" height="100px">
+				<span class="logo_text">itProger <small>Blog</small></span>
+			</div>
+			<div class="mediaHeaderInput col-4 col-md-3">
+				<input type="search" id="search" class="form-control" placeholder="Поиск" autocomplete="off">
+			</div>
+			<div class="col-4 col-md-5  navigation text-right ">
+				<button type="button" class="btn btn-light"><a href="/index.html" class="aInHeader">Главная</a></button>
+				<button type="button" class="btn btn-light"><a href="#" class="aInHeader">Статьи</a></button>
+				<button type="button" class="btn btn-light"><a href="#" class="aInHeader">Контакты</a></button>
+			</div>
+		</div>
+	</header>  
+
+    <div class="addSearch">
+		<p>Форма поиска</p>
+		<input type="search" id="search" class="form-control" placeholder="Поиск...">
+		<button class="btn btn-light closeSearch"><span id="closeSearch">Закрыть поиск</span></button>
+	</div>  
+
+    <div class="container contacts">
+        <div class="row">
+            <div class="col-12 col-md-6 numbers mt-5">
+                <h1>CONTACT ME</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rerum velit perspiciatis et neque sapiente, repudiandae deleniti illum nostrum, nemo nobis, rem voluptatum libero cum voluptates ab saepe animi. Earum.</p>
+                <div  class="d-flex table">
+                    <img src="/img/phone-square-alt-solid.svg" alt="phone">
+                    <div>
+                        <p style="font-size:30px ;">CALL ME</p>
+                        <p style="font-size: 20px;">- +79255469810 <br>- +79255469810</p>
+                    </div>
+                </div>
+                <div  class="d-flex table">
+                    <img src="/img/envelope-open-solid.svg" alt="phone">
+                    <div>
+                        <p style="font-size:30px ;">MAIL ME</p>
+                        <p style="font-size: 20px;">- cor4in@gmail.com <br>- roch@mail.ru</p>
+                    </div>
+                </div>
+                <div  class="d-flex table">
+                    <img src="/img/map-pin-solid.svg" alt="phone">
+                    <div>
+                        <p style="font-size:30px ;">VISIT ME</p>
+                        <p style="font-size: 20px;">- Улица Новый Арбат, 11с1 <br>- Последний переулок, 15 </p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-12 col-md-6 formNum mt-5">
+                <form class="row">
+                    <label class="offset-1 col-5 label" for="name">Полное имя</label>
+                    <span class="error col-6 text-center" id="errorOne">Введите имя</span>
+                    <input class="input" id="inputOne"  type="name" class="col-3" placeholder="Артем Сергеев">
+
+
+                    <label class="offset-1 col-5 label" for="Email">Email</label>
+                    <span class="error col-6 text-center" id="errorTwo">Введите вашу</span>
+                    <input class="input" id="inputTwo" type="email" name="Email" placeholder="roshok@gmail.com">
+
+
+                    <label class="offset-1 col-5 label" for="WebSite">WebSite</label>
+                    <span class="add col-6 text-center">Введите ваш сайт</span>
+                    <input class="input" type="text" name="WebSite" autocomplete="off" placeholder="ВашСайт.ru"> 
+
+
+                    <label class="offset-1 col-5 label area" for="email">Сообщение</label>
+                    <span class="error col-6 text-center" id="errorThree">Напишите письмо</span>
+                    <textarea class="input" id="inputFour" placeholder="Напишите свое письмо..." rows=5></textarea>
+
+                    <button type="button" class="btn btn-send btn-light col-9">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	
+	<footer class="blog-footer container">
+		<b>Все права защищены &copy;</b>
+    </footer>
+    
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
+<script src="https://kit.fontawesome.com/0561c95c1c.js" crossorigin="anonymous"></script>
+<script src="/js/contacts.js"></script>
+</body>
+</html>

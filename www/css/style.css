@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 0 5%;
+}
+
+header {
+  margin-top: 50px;
+  height: 50px;
+  width: 100%;
+}
+header hr {
+  background-color: #0202ff;
+}
+header hr:not([size]) {
+  height: 5px;
+}
+header p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menuButton {
+  position: relative;
+  display: inline-block;
+  bottom: 20px;
+  right: 0px;
+  cursor: pointer;
+}
+.menuButton img {
+  height: 40px;
+}
+
+main {
+  width: 100%;
+}
+main .first_Cont {
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+main .first_Cont .text_first .lg_text_first {
+  font-family: "Montserrat", sans-serif;
+  line-height: 55px;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+main .first_Cont .text_first .main_text_first {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 470;
+  color: #8f8a8a;
+}
+main .first_Cont .text_first .main_text_first .forMediaMainFirst {
+  font-size: 30px;
+  font-weight: 550;
+}
+main .first_Cont .text_first button {
+  margin-top: 10px;
+  width: 300px;
+  padding: 20px;
+  font-size: 30px;
+}
+main .first_Cont .img_first img {
+  border-radius: 5px;
+  height: 620px;
+  width: 900px;
+  float: right;
+  transition: 1s;
+}
+main .second_Cont {
+  margin-top: 75px;
+}
+main .second_Cont .secP {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+main .second_Cont hr {
+  width: 470px;
+}
+main .second_Cont hr:not([size]) {
+  background-color: #0202ff;
+  height: 5px;
+}
+main .second_Cont .text_second {
+  border: 0;
+}
+main .second_Cont .card {
+  border: 0;
+  border-radius: 0;
+}
+main .second_Cont .one_card {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-right: 0.5px solid rgba(192, 192, 192, 0.5);
+  border-bottom: 0.5px solid rgba(192, 192, 192, 0.5);
+}
+main .second_Cont .one_card .second_lg_text {
+  font-size: 27px;
+  font-weight: bold;
+}
+main .second_Cont .one_card p {
+  font-size: 22px;
+}
+main .second_Cont .one_card img {
+  z-index: 10;
+  margin: auto 5%;
+  transition: 0.5s;
+  margin-bottom: 120px;
+}
+main .second_Cont .one_card img:hover {
+  transform: scale(1.2);
+}
+main .second_Cont .one_card button {
+  margin-top: 20px;
+  height: 65px;
+  width: 40%;
+  font-size: 30px;
+  position: relative;
+}
+main .second_Cont .two_card {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-left: 0.5px solid rgba(192, 192, 192, 0.5);
+  border-bottom: 0.5px solid rgba(192, 192, 192, 0.5);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main .second_Cont .two_card .second_lg_text {
+  font-size: 20px;
+  font-weight: bold;
+}
+main .second_Cont .two_card p {
+  font-size: 22px;
+}
+main .second_Cont .two_card img {
+  z-index: 10;
+  width: 55%;
+  margin: auto 25%;
+  transition: 0.5s;
+  margin-bottom: 120px;
+}
+main .second_Cont .two_card img:hover {
+  transform: scale(1.2);
+}
+main .second_Cont .two_card .second_lg_text {
+  font-size: 27px;
+}
+main .second_Cont .two_card button {
+  margin-top: 20px;
+  height: 65px;
+  width: 40%;
+  font-size: 30px;
+}
+main .second_Cont .one_card_two {
+  border-bottom: 0;
+  border-top: 0.5px solid rgba(192, 192, 192, 0.5);
+}
+main .second_Cont .two_card_two {
+  border-bottom: 0;
+  border-top: 0.5px solid rgba(192, 192, 192, 0.5);
+}
+main .second_Cont .one_card_three {
+  border-bottom: 0;
+  border-top: 0.5px solid rgba(192, 192, 192, 0.5);
+}
+main .second_Cont .two_card_three {
+  border-bottom: 0;
+  border-top: 0.5px solid rgba(192, 192, 192, 0.5);
+}
+main .news {
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+main .news .block {
+  margin-bottom: 50px;
+}
+main .news .block .big_word {
+  margin-top: 30px;
+  font-size: 27px;
+  font-weight: bold;
+}
+main .news .block .small_word {
+  font-size: 20px;
+}
+main .news .block button {
+  margin-top: 20px;
+  font-size: 25px;
+  width: 100%;
+  transition: 0.3s;
+}
+main .news .block img {
+  border-radius: 15px;
+  transition: 0.2s;
+}
+main .news .block img:hover {
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.33);
+}
+
+.footer_block {
+  margin-bottom: 50px;
+}
+.footer_block .footer_text {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.footer_block .hrNum {
+  width: 220px;
+}
+.footer_block .hrNum:not([size]) {
+  background-color: #0202ff;
+  height: 5px;
+}
+.footer_block .block_footer {
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.footer_block .block_footer .block_last img {
+  width: 65px;
+  height: 55px;
+  margin-right: 20px;
+  margin-top: 5%;
+}
+.footer_block .block_footer .block_last .last_main_words {
+  font-size: 27px;
+  font-weight: bold;
+}
+.footer_block .block_footer .block_last .last_main_words_two {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  background-color: #f5f3f3;
+  position: absolute;
+  top: 0;
+  left: -1000px;
+  height: 4850px;
+  width: 20%;
+}
+.menu .search_block {
+  width: 100%;
+  height: 100px;
+  padding: 25px 10% 0 10%;
+  background-color: #e6e3e3;
+}
+.menu .search_block input {
+  width: 100%;
+  font-size: 20px;
+}
+.menu .div {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.menu .div .d-flex {
+  flex-direction: column;
+}
+.menu .div .d-flex .button {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+}
+.menu .div .d-flex .button:hover {
+  color: blue;
+}
+.menu .div .d-flex .one {
+  font-size: 30px;
+  font-weight: bold;
+  border: 0;
+  margin-bottom: -20px;
+}
+.menu .div .d-flex .one_hr {
+  width: 23%;
+}
+.menu .div .d-flex .one_hr:not([size]) {
+  background-color: #0202ff;
+  height: 3px;
+  margin-bottom: 50px;
+}
+.menu .div .d-flex .Menu-Info {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menu .div .d-flex .hrNum {
+  width: 60%;
+}
+.menu .div .d-flex .hrNum:not([size]) {
+  background-color: #0202ff;
+  height: 5px;
+}
+.menu .div .d-flex img {
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.menu .div .d-flex img:hover {
+  transform: scale(1.1);
+}
+.menu .div .d-flex .afterImg {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.menu .div .d-flex .bttonTwo {
+  margin-bottom: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.menu .div .d-flex .hrNumTwo {
+  width: 110px;
+}
+.menu .div .d-flex .hrNumTwo:not([size]) {
+  background-color: #0202ff;
+  height: 5px;
+}
+.menu .div .d-flex .helpMe {
+  font-size: 20px;
+}
+.menu .div .d-flex .twoFlex img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  transition: 0.9s;
+}
+.menu .div .d-flex .twoFlex img:hover {
+  transform: rotate(360deg);
+}
+.menu .div .d-flex .twoFlex p {
+  margin-left: 50px;
+  font-size: 25px;
+}
+.menu .div .d-flex .copySave {
+  font-size: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  header p {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  body {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  main {
+    width: 100%;
+  }
+  main .first_Cont {
+    margin-left: 1%;
+    padding: 0;
+  }
+  main .first_Cont .text_first .lg_text_first {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  main .first_Cont .text_first .main_text_first {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+  }
+  main .first_Cont .text_first .main_text_first .forMediaMainFirst {
+    font-size: 15px;
+  }
+  main .first_Cont .text_first button {
+    border-radius: 15px;
+    padding-bottom: 40px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+  main .first_Cont .img_first .forMenu {
+    position: relative;
+    bottom: 90px;
+    border-radius: 15px;
+    margin-top: -30px;
+    width: 100%;
+    height: 250px;
+  }
+  main .first_Cont .btnFirst {
+    position: relative;
+    top: 265px;
+  }
+  main .second_Cont .secP {
+    font-size: 20px;
+    text-align: center;
+  }
+  main .second_Cont hr {
+    width: 100%;
+  }
+  main .second_Cont hr:not([size]) {
+    background-color: #0202ff;
+    height: 5px;
+  }
+  main .second_Cont .text_second .one_card p {
+    font-size: 15px;
+  }
+  main .second_Cont .text_second .one_card button {
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+  }
+  main .second_Cont .text_second .two_card p {
+    font-size: 15px;
+  }
+  main .second_Cont .text_second .two_card button {
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+  }
+  main .news .block .big_word {
+    font-size: 15px;
+    text-align: center;
+  }
+  main .news .block .small_word {
+    font-size: 13px;
+  }
+  main .news .block .btn {
+    font-size: 13px;
+  }
+  main .footer_block .footer_text {
+    text-align: center;
+    font-size: 20px;
+  }
+  main .footer_block .hrNum {
+    width: 50%;
+    margin-left: 25%;
+  }
+  main .footer_block .block_footer .block_last .imgOneLast {
+    width: 15%;
+    height: 40px;
+  }
+  main .footer_block .block_footer .block_last .imgTwoLast {
+    width: 50px;
+    height: 50px;
+  }
+  main .footer_block .block_footer .block_last .last_main_words_two {
+    font-size: 13px;
+  }
+  main .footer_block .block_footer .block_last .last_main_words {
+    font-size: 15px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menuButton {
+    display: none;
+  }
+}

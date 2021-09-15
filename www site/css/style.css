@@ -1,0 +1,168 @@
+body { height: 1500px;}
+.font-size-for-header {font-size: 25px;}
+.font-size-for-white {font-size: 30px;}
+.font-size-for-white-two{font-size: 20px;}
+.font-size-for-red{font-size: 40px;}
+.red-block-color{color: rgb(128, 14, 14);}
+.span-text{font-size: 20px;}
+.font-size-for-media{font-size: 70px;}
+.font-size-for-media-red{font-size: 70px;}
+.margin-for-white {margin-top:0;}
+.margin-for-white-two {margin-top: 0;}
+.red-block-font-one {margin: auto;}
+.red-block-font-two {margin-top: 0px ;}
+.red-block-font-threeclass {margin: auto;}
+.red-block-font-four {margin: auto;}
+.style-for-bottom-media {margin:auto;}
+.last-word {font-style: none;}
+.last-word-two {font-style: none;}
+.last-article {font-style: none;}
+
+header {
+    background-image: url(../img/f85dc7d5bc2a124dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 965px;
+    width: 100%;
+}
+.container-header {
+    position: relative;
+    top: 400px;
+}
+
+.white-block {
+    height: 500px;
+    width: 100%;
+    color:black;
+}
+.container-white-block {
+    position: relative;
+    top: 200px;
+}
+.red-block {
+    height: 600px;
+    width: 100%;
+    color:black;
+}
+.container-red-block {
+    position: relative;
+    top: 125px;
+}
+
+footer {
+    background-image: url(../img/Java-razrabotchik-kto-takoj-skolko-zarabatyvaet-gde-uchitsya-i-kak-im-stat-dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 965px;
+}
+
+.container-footer {
+    position: relative;
+    top: 400px;
+}
+
+@media (min-width:375px) and (max-width:450px) {
+    header {
+        width: 100%;
+        height: 670px;
+    }
+    .font-size-for-media {
+        font-size: 50px;
+        margin-right:0px;
+    }
+    .font-size-for-header {
+        font-size: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .container-header {
+        position: relative;
+        top: 150px;
+    }
+    .style-for-bottom-media {
+        width: 60%;
+        margin-right: 15px;
+        height: 50px;
+        
+    }
+
+
+    .white-block {
+        height: 400px;
+        width: 100%;
+        color:black;
+    }
+    .container-white-block {
+        position: relative;
+        top: 100px;
+    }
+    .red-block {
+        height: 600px;
+        width: 100%;
+        color:black;
+    }
+    .container-red-block {
+        position: relative;
+        top: 75px;
+    }
+    .font-size-for-media-red {
+        font-size: 50px;
+    }
+    .margin-for-white {
+        font-size: 20px;
+        margin-right:10px;
+    }
+    .margin-for-white-two {
+        font-size: 15px;
+        text-align: center;
+        margin-right:10px;
+    }
+
+    .margin-for-white-three {
+        margin-right:10px ;
+        width: 60%;
+        height: 50px;
+    }
+
+    .red-block-font-one {
+        font-size: 45px;
+        margin-right: 10px;
+
+    }
+    .red-block-font-two {
+        font-size: 30px;
+        margin: auto 50px 10px 30px;
+    }
+    .red-block-font-three {
+        font-size: 20px;
+        margin-right: 10px;        
+    }
+    .red-block-font-four {
+        font-size: 15px;
+        margin-right:10px;
+        margin-bottom: 20px;
+    }
+
+
+    .last-word {
+        
+        margin-right: 10px;
+    }
+    .last-word-two {
+        margin-right: 10px;
+        height: 50px;
+        width: 60%;
+    }
+
+    footer {
+        background-size:cover;
+        background-position: right;
+        height: 670px;
+        width: 100%;
+    }
+
+    .container-footer {
+        position: relative;
+        top: 150px;
+    }
+}
