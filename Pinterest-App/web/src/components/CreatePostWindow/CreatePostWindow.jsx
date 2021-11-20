@@ -90,7 +90,8 @@ export default class CreatePostWindow extends Component {
                                     }
                                 }}>Предварительный просмотр</button>
                             </div>
-                        </form>}
+                        </form>
+                }
                 </div>
             </div>
         )
