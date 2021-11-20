@@ -1,0 +1,20 @@
+.title-crea {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background: rgb(128, 15, 194);
+    color: white;
+    padding: 20px;   
+    font-size: 20px;
+    text-align: center;
+}
+.user-posts {
+    border-radius: 20px;
+    width: 90%;
+    padding:0 5% auto;
+    margin: 20px 5% auto;
+    background: rgb(230, 230, 230);
+    min-height: 90px;
+}
+.mainbl {
+    background: red;
+}

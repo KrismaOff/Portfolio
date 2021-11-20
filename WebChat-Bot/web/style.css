@@ -1,0 +1,71 @@
+body {
+    text-align: center!important;
+}
+
+header {
+    margin-top: 10px;
+}
+
+header h4 {
+    font-weight: lighter;
+}
+
+.mainBlockChat {
+    position: relative;
+    overflow-y: scroll;
+    width: 60%!important;
+    min-height: 500px;
+    margin:20px 15%;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(223, 218, 218, 0.5)!important;
+}
+.messageBlock {
+    display: flex;
+    padding-top: 17px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.UserMess {
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    /* background: red; */
+}
+.botMess {
+    max-width: 500px;
+    padding-bottom: 70px;
+}
+
+.messageBlock .text {
+    background-color:white ;
+    max-width:500px ;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.messageBlock .imgPic {
+    margin-top: 10px;
+}
+.UserText {
+    background: rgba(128, 0, 128, 0.5)!important;
+    color: rgb(245, 230, 230);
+    font-size: 17px;
+}
+
+
+input {
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(128, 0, 128, 0.5);
+    width: 60%;
+    height: 45px;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    bottom: 20px;
+}
+

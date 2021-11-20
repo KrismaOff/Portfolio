@@ -1,0 +1,66 @@
+.main-block-test {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    /* height: 200px; */
+    /* background: red; */
+}
+.blockQ{
+    width: 30%;
+    background: rgba(214, 202, 202, 0.5);
+}
+.title-test {
+    width: 100%;
+    background: white;
+    min-height: 55px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.test-block-option {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn-send {
+    margin-top: 15%;   
+    width: 30%;
+}
+.scoreBlock {
+    position: absolute;
+    top: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 300px;
+    height: 120px;
+    border-radius:5px;
+    font-size: 14px;
+
+    margin-left: 10px;
+    margin-top: 15%; 
+    padding: 5px;
+}
+
+.btnScoreBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-save {
+    border-radius: 0px;
+    width: 100%;
+}
+.btn-save-Link {
+    width: 100%;
+    background: red;
+}
+.btn-repl {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}   

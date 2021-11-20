@@ -1,0 +1,128 @@
+.blockQ{
+    width: 30%;
+    background: rgba(214, 202, 202, 0.5);
+}
+.title-test {
+    width: 100%;
+    background: white;
+    min-height: 55px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.test-block-option {
+    width: 100%;
+    margin-top: 5px;
+}
+.btn-send {
+    margin-top: 15%;   
+    width: 30%;
+}
+.scoreBlock {
+    position: absolute;
+    top: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 300px;
+    height: 120px;
+    border-radius:5px;
+    font-size: 14px;
+
+    margin-left: 10px;
+    margin-top: 15%; 
+    padding: 5px;
+}
+
+.btnScoreBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-save {
+    border-radius: 0px;
+    width: 100%;
+}
+.btn-save-Link {
+    width: 100%;
+    background: red;
+}
+.btn-repl {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}   
+
+
+.main-block-testExam {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+.exam-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 30%;
+    background-image: url(https://wallpapersprinted.com/download/1/light_gray_hd_gray-2560x1440.jpg);
+    background-size: cover;
+    color: white;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.exam-window:hover {
+    color: rgb(180, 176, 176);
+}
+.up-line-exam {
+    display: flex;
+    justify-content: space-between;
+}
+.down-line-exam {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Quest {
+    font-size: 30px;
+}
+.LINK {
+
+    margin-bottom: 10px;
+    /* background: red; */
+    width: 30%;
+    height: 200px;
+}
+.btn-exam-go {
+    background-image: url(https://wallpapersprinted.com/download/1/light_gray_hd_gray-2560x1440.jpg);
+    background-size: cover;
+    transition: .5s;
+}
+.btn-exam-go:hover {
+    color: rgb(180, 176, 176);
+}
+.blockWitchScores {
+    margin-top: 40px;
+    /* background-image: url(https://wallpapersprinted.com/download/1/light_gray_hd_gray-2560x1440.jpg); */
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockWithScore {
+    font-size: 16px;
+
+    width: 15%;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.card-post {
+    position: relative;
+    width: 15%;
+    margin-bottom: 20px;
+    margin-right: 1.6%;
+}
+.img-post {
+    border-radius: 20px;
+}
+.card-title {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tags-block {
+    color: white;
+    position:absolute;
+    font-size: 14px;
+    transition: .5s;
+    border-radius:20px 0 20px 0;
+    padding: 10px;
+    /* text-transform: capitalize; */
+    background: rgba(111, 10, 170, 0.7);
+}
+.tags-block::first-letter {
+    text-transform: capitalize;
+}
+.x-class {
+    background: rgba(111, 10, 170, 0.5);
+    width: 100%;
+    border-radius: 0 0 18px 18px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,41 @@
+/* .titleTest {
+    background: red;
+} */
+.BlockTest {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-height: 600px;
+    /* padding: 2%; */
+    padding: 10px 0 ;
+    background: rgba(214, 207, 207, 0.5);
+}
+
+.line {
+    margin-top: 7px;
+    width: 20%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    margin-left: 40%;
+}
+.btnTest {
+    width: 100%;
+    /* bottom: 10px; */
+    /* background: red; */
+    /* position: absolute; */
+    margin-bottom: 10px;
+
+}
+.btnTest button {
+    width: 20%;
+}
+.blockWithOptionTest {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.aGo {
+    text-decoration: none;
+    color: white;
+}

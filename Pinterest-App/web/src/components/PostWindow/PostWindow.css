@@ -1,0 +1,99 @@
+.example-post {
+    font-size: 15px;
+    
+    width: 48%;
+    margin: 5% 26% 10px;
+}
+.card {
+    min-height: 530px;
+}
+.card-ex-post {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 15px;
+    background: white;
+}
+.card-img {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+.second-block-post {
+    width: 50%;
+    text-align: center;
+}
+.author-block-post {
+    justify-content: right;
+    /* background: red; */
+    padding:10px;
+}
+.author-ex-post {
+    font-size: 17px;
+}
+.title-ex-post {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    padding: 20px;
+}
+.title-ex-post::first-letter {
+    color: rgb(39, 182, 10);
+    text-transform: uppercase;
+}
+.text-ex-post {
+    font-size: 17px;
+    width: 100%;
+    padding: 40px;
+}
+.hr-ex-post {
+    background-color: black;
+    height: 1px;
+    width: 80%;
+    margin: auto 10%;
+}
+.tags-ex-post {
+    width: 80%;
+    margin: 2px 10%;
+    text-transform: capitalize;
+    background: rgba(238, 235, 235, 0.5);
+    border-radius: 20px 20px 0 0;
+    /* border-radius: 25px; */
+    font-size: 16px;
+    padding:20px;
+}
+.btn-group-ex-post {
+    width: 80%;
+}
+
+.btn-ex-post {
+    width: 100%;
+}
+.comment-ex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 35px;
+}       
+.icon {
+    cursor: pointer;
+}
+.btn-save-try {
+    justify-content: space-between;
+}
+.btn-wind-save-try {
+    margin-top: 15px;
+    width: 49.5%;
+    border-radius: 15px;
+}
+.btn-wind-save-try:hover {
+    background: gray;
+    color: white;
+} 
+.comment-save-block-post {
+    width: 50%;
+    bottom: 1.5%;
+    position: absolute;
+}
+.btn-green {
+    transition: .5s;
+    background: rgba(111, 10, 170, 0.7);
+}

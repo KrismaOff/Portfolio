@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  height: 500px;
+}
+.n-s {
+  user-select: none;
+}
+.empty-block {
+  height: 60px;
+}
+.dataB {
+  z-index: 100;
+  /* background: red; */
+  position: fixed;
+  right: 15px;
+  top: 8px;
+  padding: 7px;
+}
+.error {
+  text-align: center;
+  color: rgb(214, 3, 3);
+  margin-top: 18%;
+}
