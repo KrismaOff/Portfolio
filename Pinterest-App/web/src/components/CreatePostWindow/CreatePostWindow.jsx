@@ -42,7 +42,6 @@ export default class CreatePostWindow extends Component {
                                     <div className="title-ex">{title}</div>
                                     <div className="hr-ex"></div>
                                     <div className="text-ex">{text}</div>
-
                                     <div className="comment-save-block">
                                         <div className="tags-ex">{tags}</div>
                                         <div className="btn-group btn-group-ex">
@@ -93,7 +92,6 @@ export default class CreatePostWindow extends Component {
                             </div>
                         </form>
                     }
-
                 </div>
             </div>
         )
