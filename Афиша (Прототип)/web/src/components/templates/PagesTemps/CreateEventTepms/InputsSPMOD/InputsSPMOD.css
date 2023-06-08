@@ -1,0 +1,9 @@
+.tableSpeakerInp {
+	font-family: 'OpenSans_Medium';    
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    margin-bottom: 5px;
+    font-size: 15px;
+}

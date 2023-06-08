@@ -1,0 +1,20 @@
+.formatActTh {
+    background: var(--purple);
+}
+
+.selectCellAdPg {
+    width: 7em;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'OpenSans_Medium';
+    outline: none;
+}
+.optionCellAdPgMn {
+    font-family: 'OpenSans_Medium';
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
