@@ -1,0 +1,11 @@
+.infoBlockCont {
+    width: 100%;
+}
+
+.infoDetCont {
+    display: flex;
+    align-items: center;
+}
+.exeption {
+    color: var(--purple);
+}

@@ -1,0 +1,52 @@
+
+.scheduleCont {
+    background: var(--purple-dark);
+    
+    padding: 10px;
+    width: 30%;
+    /* height: 20em; */
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.scheduleContAct {
+    background: rgba(128, 128, 128, 0.5);
+
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.placeSh {
+    transition: .2s;
+    position: absolute;
+    font-size: 70px;
+}
+.placeShAct {
+    user-select: none;
+    transition: .2s;
+    opacity: .05;
+    position: absolute;
+    font-size: 70px;
+}
+
+
+.scheduleBlockAct {
+    transition: .2s;
+}
+
+.scheduleBlock {
+    transition: .2s;
+    opacity: 0;
+}

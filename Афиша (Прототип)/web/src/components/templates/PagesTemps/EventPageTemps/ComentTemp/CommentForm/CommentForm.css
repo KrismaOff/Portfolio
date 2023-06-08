@@ -1,0 +1,38 @@
+.commentWriteBlock {
+    background: rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
+    padding: 50px 50px 50px;
+    margin-top: 30px;
+}
+
+.scoreTitle {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.scoreText {
+    font-family: "OpenSans_Medium";
+    font-size: 15px;
+    padding: 20px;
+    width: 80%;
+    border: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 200px;
+    resize: none
+    
+}
+.sendScore {
+    margin-top: 10px;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 0 0 20px 20px ;
+    color: white;
+    transition: .2s;
+    background: var(--purple-dark);
+}
+.sendScore:hover {
+    color: white;
+    background: var(--purple);
+}

@@ -1,0 +1,43 @@
+.titleBlockCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.eventTextUpLayout {
+    width: 80%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventTitle {
+    font-family: 'OpenSans_Medium';
+    font-size: 40px;
+    align-self: center;
+    width: 70%;
+}
+.eventDateTime {
+    font-family: 'OpenSans_Medium';
+    font-size: 26px;
+}
+
+.eventImgCont {
+    background: var(--purple);
+    height:30em;
+    width: 100%;
+}
+.eventImg {
+    object-fit: cover;
+    width: 100%;
+    height: 30em;
+}
+.eventImgBack {
+    top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 30em;
+}

@@ -1,0 +1,28 @@
+.infoDet {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.imgDetails:hover::after { 
+    content: attr(data-title);
+    color: var(--purple-light);
+    font-size: 17px;
+    padding: 5px;
+    transition: .2s;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+    transition: .2s;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.whModer {
+    color: var(--purple);
+}
