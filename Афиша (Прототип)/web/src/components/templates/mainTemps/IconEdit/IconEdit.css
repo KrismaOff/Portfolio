@@ -1,0 +1,11 @@
+.userPageEditIcon {
+    text-align: left;
+}
+.imgEdit {
+    margin: 15px;
+    width: 20px;
+    transition: .2s;
+}
+.imgEdit:hover {
+    transform: scale(1.2);
+}

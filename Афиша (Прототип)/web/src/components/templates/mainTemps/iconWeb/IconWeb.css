@@ -1,0 +1,10 @@
+.imgCont {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 5px;
+}
+.iconImg {
+    width: 30px;
+    /* width: 100%; */
+}
