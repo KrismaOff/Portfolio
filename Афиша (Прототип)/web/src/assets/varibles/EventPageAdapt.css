@@ -1,0 +1,148 @@
+@media (max-width: 500px) {
+    .eventPage .eventTitle {
+        font-size: 20px;
+    }
+
+    /*TAG_BLOCK*/
+    .eventPage .eventTag {
+        z-index: 100;
+        width: 80%;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .eventPage .eventDesc {
+        font-size: 14px;
+    }
+
+    /*TAG_BLOCK*/
+    /*IMG_BLOCK*/
+    .eventPage .eventImg {
+        object-fit: cover;
+        height: 20em;
+    }
+
+    .eventPage .eventImgCont {
+        height: 20em;
+    }
+
+    .eventPage .eventImgBack {
+        height: 20em;
+    }
+    /*IMG_BLOCK*/
+    /*DetailsBlock InfoBlock*/
+    .eventPage .detailsBlockCont {
+        width: 100%;
+    }
+
+    .eventPage .infoDet {
+        padding:0 10px;
+    }
+    .eventPage .titleDesc {
+        font-size: 25px;
+        text-align: center;
+    }
+    .eventPage .icon {
+        width: 25px;
+    }
+    .eventPage .infoCellTextText {
+        font-size: 14px;
+    }
+    .eventPage .whModer {
+        font-size: 14px;
+    }
+    .eventPage .imgDetails:hover::after {
+        padding: 0;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    /*DetailsBlock InfoBlock*/
+    /*DetailsBlock DescribeBlock*/
+    .eventPage .eventDesc {
+        width: 90%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    /*DetailsBlock DescribeBlock*/
+    /*DetailsBlock ScheduleBlock*/
+        .eventPage .scheduleTitle {
+            font-size: 25px;
+            text-align: center;
+        }
+        .eventPage .scheduleContSc {
+            display: flex;
+            flex-direction: column;
+        }
+        .eventPage .scheduleCont {
+            font-size: 10px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+            /* background: red; */
+        }
+        .eventPage .scheduleContAct {
+            font-size: 10px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        /*DetailsBlock ScheduleBlock*/
+        /*DetailsBlock AdressBlock*/
+        .eventPage .adressDesc {
+            padding: 0 10px;
+            font-size: 20px;
+            /* margin-bottom: 5px; */
+        }
+        /*DetailsBlock AdressBlock*/
+
+        /*CommenBlock AdressBlock*/
+        .eventPage .commentBlock {
+            width: 100%;
+        }
+        .eventPage .commentEmpty {
+            font-size: 14px;
+        }
+        .eventPage .commentMessage {
+            width: 100%;
+        }
+        .eventPage .scoreCommentData {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100px;
+        }
+        .eventPage .messageComment {
+            height: 100px;
+        }
+        .eventPage .commentWriteBlock {
+            border-radius:0;
+        }
+        .eventPage .commentWriteBlock {
+            padding: 10px;
+        }
+        /*CommenBlock AdressBlock*/
+        /*CommenBlock SignUpEventBlock*/
+        .eventPage .signUpEventImg {
+            width: 45%;
+        }
+        .eventPage .signUpEventBlock {
+            width: 50%;
+        }
+        .eventPage .signUpEventBlock input {
+            font-size: 12px;
+        }
+        .eventPage .signUpGroupBtn {
+            width: 80%;
+        }
+        .eventPage .signUpGroupBtn button {
+            font-size: 10px;
+            width: 49%;
+        }
+        /*CommenBlock SignUpEventBlock*/
+}
+
+@media (max-width: 400px) {
+    .eventPage .signUpEventBlock, .eventPage .signUpEventImg {
+        height: 60%;
+    }
+}

@@ -1,0 +1,81 @@
+@media (max-width: 500px) {
+    main .mainPage {
+        width: 100%;
+    }
+
+    /* CalendarCarusel */
+    .mainPage .title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mainPage .daysMobile {
+        position: relative;
+        justify-content: center;
+        overflow: auto;
+        overflow-y: hidden;
+        height: 100px;
+    }
+    .mainPage .point {
+        margin-left: 32%;
+    }
+    .mainPage .CellDateLink {
+        padding: 5px;
+    }
+    .mainPage .day {
+        font-size: 15px;
+    }
+    .mainPage .dayOfWeek {
+        font-size: 15px;
+    }
+    .mainPage .btnArrow {
+        padding: 15px;
+        border: none;
+        color: var(--purple);
+    }
+
+    /* point */
+
+    .mainPage .unactive {
+        padding: 1.5px;
+    }
+
+    .mainPage .Link {
+        width: 100%;
+    }
+
+    /* CardsCont */
+    .mainPage .cardContainer {
+        margin-top: 0px;
+    }
+
+    .mainPage .upLayerCardBackground {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    .mainPage .cardName {
+        font-size: 12px;
+    }
+
+    .mainPage .cardBackgroundImg {
+        height: 100px;
+    }
+
+    .mainPage .upLayerCard {
+        height: 100%;
+    }
+
+    .mainPage .cardCarPoint {
+        font-size: 60px;
+    }
+
+    .mainPage .act {
+        font-size: 70px;
+    }
+
+    .mainPage .cardCaruselTitle {
+        font-size: 17px;
+    }
+}

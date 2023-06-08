@@ -1,0 +1,133 @@
+@media (max-width: 500px) {
+    .App .userPage {
+        width: 90%;
+    }
+
+    .userPage .signUpCont {
+        flex-direction: column;
+        height: auto;
+        /* padding: 10px; */
+    }
+
+    .userPage .signUpPart {
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        padding: 20px 0;
+    }
+
+    .userPage .signInPart {
+        width: 100%;
+        border-radius: 30px 30px 0 0;
+        padding: 20px 0;
+    }
+
+    .signUpPart .signUpBtn {
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .signInPart .signInBtn {
+        font-size: 15px;
+        padding: 5px;
+        width: 60%;
+    }
+
+    .userProfileCont .userPageCont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .userProfileCont .userPhoto {
+        width: 100px;
+        height: 100px;
+    }
+
+    .userProfileCont .userPhotoNone {
+        width: 100px;
+        height: 100px;
+    }
+
+    .userProfileCont .userInfo {
+        flex-direction: column;
+        margin: 10px 0 0;
+    }
+
+    .userProfileCont .infoUserCont {
+        font-size: 17px;
+        text-align: unset;
+    }
+
+    .userProfileCont .titleInfo {
+        font-size: 17px;
+        text-align: unset;
+    }
+
+    .userProfileCont .editVl {
+        text-align: center;
+    }
+
+    .userProfileCont .infoUserCont:first-child {
+        margin: 0;
+    }
+
+    .userProfileCont .iconAct {
+        width: 35px;
+    }
+
+    .userProfileCont .iconTitleAct {
+        font-size: 15px;
+    }
+
+    .userProfileCont .contOpport {
+        margin-top: 10px;
+    }
+
+    .userProfileCont .userActTitle {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .userProfileCont .userActTitleActive {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .UserOpportBlock .formMenuText {
+        font-size: 12px;
+    }
+
+    .UserOpportBlock .formMenuInputs {
+        flex-direction: column;
+    }
+
+    .UserOpportBlock .formMenuInputs input {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .UserOpportBlock .formMenuInput textarea {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .UserOpportBlock .formMenuInput button {
+        width: fit-content;
+    }
+
+    .userProfileCont .imgFormatCont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgFormatCont .titleFormat {
+        margin-bottom: 10px;
+    }
+    .userProfileCont .delBtn {
+        background: red;
+        color: rgba(255, 255, 255, 0);
+    }
+    .userProfileCont .userCarusel1 {
+        height: auto;
+    }
+}
