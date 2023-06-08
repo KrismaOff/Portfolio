@@ -1,0 +1,32 @@
+.CardCategoryCont {
+    font-family: "OpenSans_Medium";
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    color: white;
+    border-bottom:1px solid rgb(0, 0, 0, 0);
+}
+.CardCategoryCont:hover {
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple);
+}
+
+.CardCategoryContAct {
+    font-family: "OpenSans_Medium";
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    
+    color: grey;
+    /* border-bottom: 1px solid grey; */
+}
+
+.CardCategoryLink {
+    /* font-size: 1em; */
+    color: white;
+    text-decoration: none;
+}

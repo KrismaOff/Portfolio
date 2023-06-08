@@ -1,0 +1,18 @@
+.searchCont {
+    font-family: 'OpenSans_Medium';
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+}
+.search {
+    font-family: 'OpenSans_Medium';
+    width: 70%;
+
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+}

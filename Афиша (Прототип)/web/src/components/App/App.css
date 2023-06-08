@@ -1,0 +1,18 @@
+@import url('../../assets/fonts/fonts.css');
+@import url('../../assets/varibles/varibles.css');
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+}
+
+.App {
+  position: relative;
+  text-align: center;
+  font-family: "OpenSans_Medium";
+  padding-top:20px;
+}
+.none {
+  opacity: 0;
+}

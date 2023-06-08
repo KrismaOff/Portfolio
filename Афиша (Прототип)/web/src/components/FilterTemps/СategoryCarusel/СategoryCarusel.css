@@ -1,0 +1,7 @@
+.СategoryCaruselCont {
+    display: flex;
+    justify-content: center;
+    width: 60rem;
+    margin: auto;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,14 @@
+footer {
+    font-family: "OpenSans_Medium";
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerCont {
+    width: 80em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

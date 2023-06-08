@@ -1,0 +1,16 @@
+.cardContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.noneEv {
+    font-size: 20px;
+    font-family: 'OpenSans_Medium';
+    color: grey;
+    position: absolute;
+    top: 60%;
+    /* margin-top: 10%; */
+    /* margin-top: 10%; */
+}
