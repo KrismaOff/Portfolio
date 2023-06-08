@@ -1,0 +1,45 @@
+.inputWithName {
+    font-family: 'OpenSans_Medium';
+    opacity: .5;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.inputWithInpCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputWithInput {
+    border-radius: 5px;
+    outline: none;
+    font-family: 'OpenSans_Medium';
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    width: calc(100% - 30px);
+}
+
+.inputWithTextarea {
+    font-family: 'OpenSans_Medium';
+    font-size: 15px;
+    resize: none;
+    border-radius: 5px;
+
+    outline: none;
+    padding: 15px;
+    border: none;
+    height: 150px;
+    width: calc(100% - 30px);
+}
+.inputWithErr {
+    margin: 5px auto;
+    font-family: 'Inter_Reg';
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+
+.opNone {
+    opacity: 0;
+}

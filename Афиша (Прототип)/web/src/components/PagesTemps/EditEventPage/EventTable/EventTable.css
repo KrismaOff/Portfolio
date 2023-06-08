@@ -1,0 +1,43 @@
+.btnEditAd {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius:5px;
+    background: var(--purple-dark);
+    color: white;
+    font-size: 15px;
+    transition: .2s;
+}
+.btnEditAd:hover {
+    color: white;
+    background: var(--purple);
+}
+
+.editEventTable {
+    width: 90em;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+.editEventTable th:first-child {
+    border: none;
+}
+.editEventTable th {
+    padding: 5px;
+    border: 2px solid var(--purple);
+}
+.editEventTable td {
+    padding: 5px;
+}
+
+.tableName {
+    width: calc(100% / 5);
+}
+
+.searchDB {
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    font-family: "OpenSans_Medium";
+    outline: none;
+}
