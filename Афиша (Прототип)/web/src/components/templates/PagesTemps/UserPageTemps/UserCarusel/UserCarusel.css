@@ -1,0 +1,59 @@
+.userCaruselCont {
+    padding: 20px;
+    overflow: auto;
+}
+
+.userCarusel0 {
+    display: flex;
+    height: 290px;
+    flex-wrap: wrap;
+}
+
+.userCarusel1 {
+    height: 590px;
+}
+
+.userCarusel2 {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardEventCont2 {
+    width: 10%;
+    transition: .2s;
+}
+
+.cardEventCont2:hover {
+    width: 30%;
+}
+
+.notEv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 238, 238);
+    background: grey;
+    border-radius: 0px 0px 25px 25px;
+    height: 70px;
+    transition: .2s;
+}
+
+
+.delBtn {
+    opacity: .3;
+    width: 85%;
+    padding: 5px;
+    border-radius: 15px 15px 5px 5px;
+    border: none;
+    margin-bottom: 5px;
+    background: rgb(160, 160, 160);
+    color: rgb(160, 160, 160);
+    transition: .2s;
+}
+
+.delBtn:hover {
+    opacity: 1;
+    color: white;
+}

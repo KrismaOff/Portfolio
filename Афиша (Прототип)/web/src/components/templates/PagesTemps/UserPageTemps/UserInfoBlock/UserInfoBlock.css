@@ -1,0 +1,26 @@
+.userPageCont {
+    padding: 0 50px 50px ;
+    display: flex;
+}
+.userInfoCont {
+    display: flex;
+}
+
+.saveBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 10%;
+    transition: .2s;
+    background: var(--purple-light);
+    color: white;
+}
+
+.saveBtn:hover {
+    background: var(--purple-dark);
+}
+.userInfoIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,57 @@
+.CellDateLink {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.active {
+    border-radius: 5px;
+    color: rgba(100, 0, 255, 1);
+}
+
+.unactive {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.weekends {
+    color: red;
+}
+
+.day {
+    font-size: 17px;
+    font-family: 'OpenSans_Bold';
+}
+
+.dayOfWeek {
+    font-size: 12px;
+    font-family: 'OpenSans_Bold';
+}
+
+.lineCalendar {
+    border:none;
+    height: 2px;
+    background:rgba(100, 0, 255, 1);
+}
+.lineCalendarNone {
+    border:none;
+    height: 2px;
+    background: none;
+}
+.point {
+    margin-left: 35%;
+    background: yellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transition: .2s;
+}
+.point:hover {
+    border-radius:0px 0px 0px 0px;
+}
+.pointNone {
+    margin-left: 35%;
+    background: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,18 @@
+.rowInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.userTitle {
+    user-select: none;
+    font-family: 'OpenSans_Bold';
+    font-size: 25px;
+    text-align: left;
+}
+
+.editVl {
+    border: none;
+    /* background: none; */
+    /* padding: 10px; */
+    font-size: 17px;
+}
