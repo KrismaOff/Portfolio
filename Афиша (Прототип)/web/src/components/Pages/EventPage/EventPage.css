@@ -1,0 +1,10 @@
+.eventPage {
+    position: relative;
+}
+.titleDesc {
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: left;
+}
+
+@import url('../../../assets/varibles/EventPageAdapt.css');

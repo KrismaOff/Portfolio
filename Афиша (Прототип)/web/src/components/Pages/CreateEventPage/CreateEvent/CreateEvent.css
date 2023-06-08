@@ -1,0 +1,26 @@
+.sendCreateBtn {
+    font-family: 'OpenSans_Medium';
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 100px auto;
+
+    color: rgb(255, 255, 255);
+    background: rgb(100, 0, 255);
+
+
+    transition: .2s;
+}
+.sendCreateBtn:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(48, 0, 119);
+}
+.author {
+    padding: 10px;
+    background: var(--purple-dark);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
