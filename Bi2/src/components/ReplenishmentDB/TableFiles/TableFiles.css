@@ -1,0 +1,13 @@
+.titleFoundFiles {
+    font-weight: bold;
+}
+.btnSendData {
+    margin-top: 10px;
+    background: rgb(242, 242, 242);
+    padding: 10px;
+    border: none;
+    transition: .2s;
+}
+.btnSendData:hover {
+    background: rgb(233, 233, 233);
+}

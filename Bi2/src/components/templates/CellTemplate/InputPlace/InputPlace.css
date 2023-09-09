@@ -1,0 +1,9 @@
+.cellInputPlace {
+    border: none;
+    background: none;
+    padding: 5px;
+    outline: none;
+
+    font-size: 12px;
+    text-align: center;
+}

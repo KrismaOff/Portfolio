@@ -1,0 +1,22 @@
+.mainContainerHeader {
+    width: 100%;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    /* justify-content: center; */
+    user-select: none;
+}
+
+.iconHeader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+}
+
+.titleHeader {
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+}

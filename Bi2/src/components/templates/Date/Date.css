@@ -1,0 +1,11 @@
+.dateBlock {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    
+    /* border: 1px solid black; */
+}
+.dateBlock .title {
+    text-align: left;
+}

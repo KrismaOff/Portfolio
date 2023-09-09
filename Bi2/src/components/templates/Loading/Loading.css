@@ -1,0 +1,25 @@
+/* .App {
+    opacity: .5;
+    user-select: none;
+    pointer-events: none;
+    cursor: default;
+} */
+
+.loadingIcon {
+    width: 15%;
+    height: 15%;
+    animation-name: rotation;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
+.loading {
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+}
