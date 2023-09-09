@@ -1,0 +1,23 @@
+.tableReport {
+    margin-top: 1%;
+}
+.tableReport tr {
+    font-size: 13px;
+    text-align: left;
+    background: none;
+}
+.tableReport th {
+    font-size: 14px;
+    font-weight: bold;
+    background: none;
+}
+.sendReport {
+    width: 10%;
+    margin: 1% auto auto;
+    border: none;
+    padding: 10px;
+    transition: .2s;
+}
+.sendReport:hover {
+    background: rgb(0, 0, 0, 0.15);
+}

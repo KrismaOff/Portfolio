@@ -1,0 +1,11 @@
+.cellColorBlockCont {
+    padding: 0 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cellColorBlock {
+    width: 30px;
+    height: 30px;
+}
