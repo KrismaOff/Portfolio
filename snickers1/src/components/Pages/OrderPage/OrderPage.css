@@ -1,0 +1,11 @@
+.order_page {
+    width: var(--globalWidth);
+    margin: auto;
+}
+
+.order_page_cont {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: calc(65% - 30px) calc(35% - 30px);
+    gap: 60px;
+}

@@ -1,0 +1,39 @@
+@media (min-width: 280px) and (max-width: 800px) {
+    body .order_page {
+        width: var(--globalWidthMobile);
+    }
+    .order_page .order_page_cont {
+        width: 100%;
+        display: block;
+    }
+    .order_page .order_method_container .order_method_container_group_button {
+        gap: 10px;
+    }
+    .order_method_container_group_button .order_method_button {
+        padding: 15px 20px;
+    }
+    .order_method_button .order_method_button_title {
+        font-size: 13px;
+    }
+    .order_method_button .order_method_button_cost {
+        font-size: 10px;
+    }
+    .order_page_cont .order_method_pickup {
+        margin-bottom: 30px;
+    }
+    .order_method_pickup .order_method_pickup_info_group {
+        display: block;
+    }
+    .order_method_pickup .order_method_pickup_info {
+        display: flex;
+        margin-top: 10px;
+    }
+    .order_method_pickup_info .order_method_pickup_info_title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .order_method_courier .order_method_courier_form_cont {
+        display: grid;
+    }
+}
