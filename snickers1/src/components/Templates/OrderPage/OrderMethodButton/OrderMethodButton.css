@@ -1,0 +1,30 @@
+.order_method_button {
+    padding: 15px 20px;
+    background: black;
+    border-radius: 20px;
+    color: var(--mainTCW);
+
+    font-family: Montserrat;
+    font-weight: 700;
+
+    display: grid;
+    gap: 10px;
+    width: 25%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.order_method_button_title {
+    font-size: 20px;
+}
+
+.order_method_button_cost {
+    font-size: 13px;
+}
+
+.order_method_button_unactive {
+    background: var(--mainTCW);
+    color: var(--mainTCB);
+    border: 1px solid black;
+    transition: .2s;
+}

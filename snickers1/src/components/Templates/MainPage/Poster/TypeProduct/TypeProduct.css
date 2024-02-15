@@ -1,0 +1,28 @@
+
+.type_product_block {
+    /* height: 125px; */
+    height: 7.8em;
+    border-radius: 20px;
+    background: var(--mainTCW);
+    position: relative;
+}
+
+.type_product_title {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 10px 0 0 15px;
+    color: var(--mainTCB);
+    /* font-size: 33px; */
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.type_product_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 20px;
+}

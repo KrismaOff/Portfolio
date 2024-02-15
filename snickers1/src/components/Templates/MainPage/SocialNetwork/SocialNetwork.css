@@ -1,0 +1,33 @@
+.socialNetwork_block {
+    margin: auto;
+    margin-top: 80px;
+    width:var(--globalWidth);
+}
+
+.socialNetwork_block_title {
+    text-align: left;
+    color: var(--mainTCB);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.socialNetwork_block_group_icon {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 10fr;
+    place-items: center;
+    gap: 30px;
+}
+
+.socialNetwork_block_icon_text {
+    color: var(--mainTCB);
+    /* text-align: center; */
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

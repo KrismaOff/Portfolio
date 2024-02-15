@@ -1,0 +1,32 @@
+.product_carusel {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    transition: 2s;
+}
+
+.product_carusel_cont {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.product_carusel_window {
+    height: 370px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.product_carusel_window::-webkit-scrollbar {
+    display: none;
+}
+
+.product_carusel_items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}

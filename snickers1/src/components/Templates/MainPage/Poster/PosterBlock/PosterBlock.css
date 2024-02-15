@@ -1,0 +1,64 @@
+.poster_block {
+    width:var(--globalWidth);
+    margin: auto;
+    user-select: none;
+}
+
+.poster_block_main_poster {
+    position: relative;
+}
+
+.poster_block_info {
+    display: grid;
+    gap: 18px;
+    width: 70%;
+    margin: 0 15%;
+    position: absolute;
+    bottom: 5%;
+}
+
+.poster_block_info div {
+    width: 60%;
+    margin: auto;
+    color: var(--mainTCW);
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.poster_block_info div:nth-last-child(2) {
+    margin-bottom: 2.5%;
+}
+
+.poster_block_button {
+    width: 45%;
+    margin: auto;
+    text-decoration: none;
+    color: var(--mainTCB) ;
+    background: var(--mainTCW);
+    border: none;
+    padding: .5% 5%;
+    border-radius: 50px;
+    color: var(--mainTC);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.poster_block_img {
+    border-radius: 40px;
+    width: 100%;
+}
+
+.poster_block_types_products {
+    margin-top: 3%;
+    width: 100%;
+    gap: 3%;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

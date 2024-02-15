@@ -1,0 +1,16 @@
+.product_container {
+    width: var(--globalWidth);
+    margin: auto;
+    margin-bottom: 60px;
+}
+.product_container_main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.product_container_carusel_mob {
+    margin-bottom: 30px;
+}
+
+.product_container_carusel_mob img {
+    align-self: center;
+}

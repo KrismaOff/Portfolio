@@ -1,0 +1,19 @@
+
+.order_method_container_title {
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.order_method_container_group_button {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_method_container_order {
+    margin-top: 35px;
+}

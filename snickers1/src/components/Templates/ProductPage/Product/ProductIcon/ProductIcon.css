@@ -1,0 +1,28 @@
+.product_icon {
+    min-height: 65px;
+    width: 65px;
+    border-radius: 13px;
+    border: 1px solid black;
+    padding: 5px;
+
+    display: grid;
+    place-items: center;
+    transition: .4s;
+}
+.product_icon_icon {
+    width: 100%;
+}
+
+.product_icon_title {
+    color: var(--text-and-str, #181818);
+    font-family: Montserrat Alternates;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pr_im_0 {
+    width: 20px;
+    height: 20px;
+}

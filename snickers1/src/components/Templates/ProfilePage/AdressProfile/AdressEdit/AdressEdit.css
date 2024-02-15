@@ -1,0 +1,70 @@
+.adress_edit {
+    display: grid;
+    gap: 15px;
+}
+
+.adress_edit span {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.adress_edit button {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+
+    padding: 7px 0;
+    background: none;
+    border-radius: 20px;
+    width: 110px;
+    border: 1px solid black;
+
+}
+
+
+.adress_edit_form_group {
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    margin: 10px 0;
+
+}
+
+.adress_edit_form input {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.adress_edit_form textarea {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+
+    height: 70px;
+    resize: none;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+.adress_edit_form_btn {
+    text-align: right;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+
+    user-select: none;
+    cursor: pointer;
+}

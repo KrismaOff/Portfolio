@@ -1,0 +1,62 @@
+.product_info {
+    text-align: left;
+}
+
+.product_info_img {
+    width: 60px;
+}
+
+.product_info_X {
+    margin: auto 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product_info_title_group {
+    margin-top: 20px;
+}
+
+.product_info_title {
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product_info_title_undT {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product_info_cost {
+    margin-top: 40px;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product_info_add {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.product_info_size {
+    font-family: Montserrat;
+    display: grid;
+    font-size: 17px;
+    font-style: normal;
+    margin: 10px 0;
+}
