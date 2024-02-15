@@ -1,0 +1,51 @@
+.highlight_block {
+    margin-top: 60px;
+}
+
+.highlight_block_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.highlight_block_container::-webkit-scrollbar,
+.highlight_block_container_adapt::-webkit-scrollbar {
+    display: none;
+}
+
+.highlight_block_container_adapt {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.highlight_block_title {
+    text-align: left;
+    color: var(--mainTCB);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlight_block_scroll {
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    padding: 3px;
+}
+
+.highlight_block_scroll_line {
+    width: 30px;
+    height: 2px;
+    background: black;
+}
+
+.highlight_block_button_cont {
+    margin: 30px auto;
+}

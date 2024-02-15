@@ -1,0 +1,60 @@
+.basket_product_info {
+    padding: 30px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--mainPageBG);
+    text-align: left;
+    margin: auto;
+}
+
+.basket_product_info_title {
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.basket_product_info_line {
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin: 15px auto;
+}
+
+.basket_product_info_result {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 17px */
+}
+
+.basket_product_info_prom {
+    cursor: pointer;
+}
+
+.basket_product_info_white_cont {
+    display: grid;
+    background: var(--mainPageBG);
+    border-radius: 50px;
+    grid-template-columns: 20% 25% 20%;
+    gap: 17.5%;
+}
+.basket_product_info_white_cont div {
+    border-radius: 20px;
+    height: 25px;
+    background: var(--mainTCW);
+}
+
+.basket_product_info_white_cont div:nth-child(1) {
+    border-radius: 0 20px 20px 0;
+}
+.basket_product_info_white_cont div:nth-child(3) {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.basket_product_info_loyalty {
+    margin-top: 15px;
+}

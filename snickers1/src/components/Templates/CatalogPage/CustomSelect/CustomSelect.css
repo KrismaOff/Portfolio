@@ -1,0 +1,71 @@
+.custom_select_empty_block {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.custom_select {
+    z-index: 1;
+    user-select: none;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom_select_title {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--mainTCB);
+    background: var(--mainTCW);
+    padding: 10px 15px;
+}
+
+.custom_select_options {
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--mainTCB);
+    background: var(--mainTCW);
+    /* animation: open .5s linear forwards; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+
+.custom_select_options_cont {
+    padding: 30px;
+}
+
+.custom_select_option_cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 80px;
+    min-width: 0px;
+    
+}
+
+.custom_select_radio_btn {
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+}
+
+.radio_btn_act {
+    background: var(--mainTCB);
+}
+
+.custom_select_option {
+    padding: 5px;
+    transition: .2s;
+}

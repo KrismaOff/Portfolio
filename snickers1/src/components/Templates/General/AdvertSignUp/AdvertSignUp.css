@@ -1,0 +1,28 @@
+.advert_signup_block {
+    background: var(--mainTCB);
+    margin-top: 60px;
+}
+.adver_signup_block_cont {
+    width:var(--globalWidth);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.advert_signup_title_block {
+    padding:50px;
+    text-align: left;
+    display: grid;
+    gap: 40px;
+}
+.advert_signup_title {
+    color: var(--mainTCW);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.advert_signup_img {
+    width: 100%;
+}

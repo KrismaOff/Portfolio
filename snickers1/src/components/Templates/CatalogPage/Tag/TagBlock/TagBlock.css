@@ -1,0 +1,29 @@
+.tab_block {
+    text-align: left;
+}
+
+.tag_block_title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--mainTCB);
+}
+
+.tab_block_tags_cont {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.tag_block_refresh {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,9 @@
+.basket_product_cont {
+    width: var(--globalWidth);
+    margin: auto;
+     
+    display: grid;
+    grid-template-columns: 65% calc(35% - 30px);
+    gap:30px;
+    margin-top: 50px;
+}

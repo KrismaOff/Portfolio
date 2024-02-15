@@ -1,0 +1,10 @@
+.basket_product_info_temp {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
