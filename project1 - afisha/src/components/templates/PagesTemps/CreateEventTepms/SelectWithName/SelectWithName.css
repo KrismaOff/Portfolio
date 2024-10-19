@@ -1,0 +1,15 @@
+.selectTitle {
+    font-family: 'OpenSans_Medium';
+    opacity: .5;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.selectWithName {
+    border-radius: 5px;
+    outline: none;
+    font-family: 'OpenSans_Medium';
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+}

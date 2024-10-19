@@ -1,0 +1,27 @@
+.CardCategoryCont {
+    font-family: "OpenSans_Medium";
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    color: white;
+}
+.CardCategoryCont:hover {
+    color: var(--purple);
+}
+
+.CardCategoryContAct {
+    font-family: "OpenSans_Medium";
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    color: grey;
+}
+
+.CardCategoryLink {
+    color: white;
+    text-decoration: none;
+}

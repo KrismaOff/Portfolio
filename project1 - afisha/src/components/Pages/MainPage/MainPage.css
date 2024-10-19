@@ -1,0 +1,6 @@
+.mainPage {
+    width: 80em;
+    margin: auto;
+}
+
+@import url('../../../assets/varibles/MainPageAdapt.css');

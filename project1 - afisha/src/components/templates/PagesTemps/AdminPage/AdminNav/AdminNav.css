@@ -1,0 +1,13 @@
+.btnCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.adminBtn {
+    padding: 5px;
+    transition: .2s;
+}
+.adminBtn:hover {
+    color: var(--purple);
+}

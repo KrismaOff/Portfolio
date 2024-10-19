@@ -1,0 +1,9 @@
+.whTime {
+    color: var(--purple);
+}
+.scheduleCellCont ul {
+    margin-bottom: 5px;
+}
+.scheduleCellCont {
+    width: 100%;
+}

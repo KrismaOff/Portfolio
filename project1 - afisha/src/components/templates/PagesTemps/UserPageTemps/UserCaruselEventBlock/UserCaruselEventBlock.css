@@ -1,0 +1,37 @@
+.imgFormatCont {
+    position: relative;
+    display: flex;
+    padding: 50px;
+}
+
+.titleFormat {
+    width: 82%;
+    text-align: center;
+    font-size: 30px;
+    align-self: center;
+}
+
+.imgFormat {
+    transition: .2s;
+}
+
+.imgFormat:hover {
+    transform: scale(1.2);
+}
+
+.hidden {
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0;
+    bottom: 0%;
+    background-color: white;
+    color: var(--purple);
+    padding: 10px;
+    font-size: 14px;
+    transition: .2s;
+}
+
+
+.imgFormat:hover+.hidden {
+    opacity: 1;
+}

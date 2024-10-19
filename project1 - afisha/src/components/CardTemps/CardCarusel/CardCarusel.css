@@ -1,0 +1,57 @@
+.cardCarusel {
+    margin: 5% auto;
+}
+.cardCaruselTitle {
+    font-size: 22px;
+    margin-bottom: 2%;
+}
+.contCardCar {
+    display: flex;
+    justify-content: space-between;
+}
+.arrowCardCar {
+    user-select: none;
+    cursor: pointer;
+    width: 3%;
+    transition: .2s;
+}
+.arrowCardCar:hover {
+    transform: scale(1.2);
+}
+
+.hide {
+    opacity: 0;
+    cursor: auto;
+}
+
+.cardCarPoint {
+    user-select: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.act {
+    font-size: 50px;
+    color: var(--purple);
+}
+
+.cardCarContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    animation-duration: .4s;
+    animation-name: animationAppearance;
+}
+.animation {
+    display: flex;
+    animation-duration: .4s;
+    animation-name: animationDisappearance;
+
+}
+@keyframes animationDisappearance {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes animationAppearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

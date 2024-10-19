@@ -1,0 +1,8 @@
+.starCell {
+    width: 50px;
+    margin-right: 5px;
+    transition: .2s;
+}
+.starCell:hover {
+    transform: scale(1.2);
+}

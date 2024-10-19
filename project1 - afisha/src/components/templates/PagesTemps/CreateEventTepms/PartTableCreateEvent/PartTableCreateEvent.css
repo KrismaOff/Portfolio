@@ -1,0 +1,42 @@
+.tableContPart {
+    /* width: 30%; */
+    padding: 10px;
+    margin: auto 5px;
+}
+
+.tableContNum {
+    font-family: 'OpenSans_Medium';
+    width: 20px;
+}
+
+
+.tableSpaceInp {
+    width: 90%;
+    margin-bottom: 10px !important;
+    border: none;
+}
+
+.timeGroup {
+    display: flex;
+    justify-content: space-between;
+}
+.tableTimeInp {
+    font-size: 15px;
+    width: 42%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tableSpeaker {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px !important;
+}
+
+.titleInp {
+    font-family: 'OpenSans_Medium';
+    opacity: .5;
+    text-align: left;
+    margin-bottom: 5px;
+}

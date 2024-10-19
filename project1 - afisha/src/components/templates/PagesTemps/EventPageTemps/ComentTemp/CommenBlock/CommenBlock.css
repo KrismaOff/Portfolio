@@ -1,0 +1,20 @@
+.commentBlock {
+    width: 80rem;
+    margin: auto;
+}
+.titleGr {
+    display: flex;
+}
+.scoreBtn {
+    margin-left: 31%;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.scoreBtn:hover {
+    color: var(--purple);
+}
+

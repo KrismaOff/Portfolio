@@ -1,0 +1,19 @@
+.EventScheduleCont {
+    padding: 10px;
+    /* background: red; */
+}
+.EventScheduleTitle {
+    font-family: 'OpenSans_Medium';
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.EventScheduleSpaceCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.EventScheduleGroupBtn {
+    width: 40%;
+    margin: auto;
+}

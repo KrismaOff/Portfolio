@@ -1,0 +1,10 @@
+.createEventPage form {
+    /* width: 60em; */
+    /* margin: auto; */
+}
+
+.userDataCreate {
+    font-family: 'OpenSans_Medium';
+    font-size: 30px;
+    margin-bottom: 20px;
+}

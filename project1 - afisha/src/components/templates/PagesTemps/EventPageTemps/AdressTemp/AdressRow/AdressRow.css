@@ -1,0 +1,12 @@
+.adressDesc {
+    margin-bottom: 15px;
+}
+.adressCl {
+    color: var(--purple);
+    transition: .2s;
+    text-decoration: none;
+}
+.adressCl:hover {
+    color: var(--purple-light);
+    transition: .2s;
+}

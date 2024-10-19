@@ -1,0 +1,30 @@
+.iconAct {
+    width: 70px;
+    transition: .2s;
+    margin-bottom: 5%;
+}
+.userActTitle {
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    transition: .2s;
+}
+.userActTitleActive {
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    width: 20%;
+    transition: .2s;
+    background: var(--purple);
+}
+.userActTitle:hover {
+    background: var(--purple);
+}
+.iconTitleAct {
+    transition: .2s;
+}
+.userActTitle:hover .iconTitleAct {
+    color: white;
+}
+.userActTitle:hover .iconAct {
+    transform: scale(1.2);
+}

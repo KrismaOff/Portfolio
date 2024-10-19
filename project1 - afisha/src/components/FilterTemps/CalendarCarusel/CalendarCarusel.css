@@ -1,0 +1,28 @@
+.calendar-carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.month {
+    font-family: 'OpenSans_Bold'; 
+}
+.days {
+    display: flex;
+    padding: 15px;
+}
+.btnArrow {
+    width: 30px;
+    transition: .1s;
+}
+.btnArrow:hover {
+    transform: scale(1.2);
+}
+.title {
+    text-align: left;
+    padding: 20px 10px 10px;
+
+    font-family: 'OpenSans_Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}

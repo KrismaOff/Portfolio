@@ -1,0 +1,10 @@
+.select {
+    font-family: "OpenSans_Medium";
+    border: none;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.2);
+    margin-bottom: 5px;
+    align-self: center;
+    padding: 15px;
+    width: 50%;
+}

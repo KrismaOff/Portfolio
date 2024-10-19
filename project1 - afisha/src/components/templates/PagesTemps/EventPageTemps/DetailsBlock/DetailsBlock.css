@@ -1,0 +1,10 @@
+.detailsBlockCont {
+    font-family: 'OpenSans_Medium';
+    width: 80rem;
+    margin: 20px auto auto;
+    text-align: left;
+}
+.eventDiscribe {
+    width: 50%;
+    font-size: 25px;
+}

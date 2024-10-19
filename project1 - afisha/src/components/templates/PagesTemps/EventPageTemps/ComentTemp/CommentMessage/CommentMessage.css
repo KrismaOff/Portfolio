@@ -1,0 +1,41 @@
+.commentMessage {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.scoreCommentData {
+    width: 8%;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    background: var(--purple-dark);
+}
+
+
+.messageCommentData {
+    text-align: left;
+    width: 92%;
+}
+
+.userCommentData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.messageComment {
+    border: none;
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+    background: rgba(128, 128, 128, 0.2);
+}
+
+.delBasket {
+    width: 50px;
+    margin-left: 10px;
+    transition: .2s;
+}
+.delBasket:hover {
+    transform: scale(1.3);
+}

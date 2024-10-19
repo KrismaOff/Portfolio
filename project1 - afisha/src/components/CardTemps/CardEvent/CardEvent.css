@@ -1,0 +1,101 @@
+.Link {
+    color: white;
+    width: 33%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.upLayerCard {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+    transition: .2s;
+
+}
+.layerAct {
+    justify-content: space-around;
+    width: 75%;
+    height: 100%;
+    transition: .4s;
+}
+
+.cardName {
+    font-family: 'OpenSans_Medium';
+    font-size: 24px;
+    transition: .4s;
+}
+
+.nameAct {
+    font-size: 20px;
+    transition: .4s;
+}
+.cardTag {
+    font-family: 'OpenSans_Medium';
+    font-size: 16px;
+}
+
+.cardTimePlace {
+    font-family: 'Inter_Reg';
+    font-size: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 10px auto;
+    background: white;
+    transition: .2s;
+}
+
+.cardBackground {
+    width: 80%;
+    width: 95%;
+    position: relative;
+}
+
+.upLayerCardBackground {
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 15px 15px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0%;
+    transition: .2s;
+}
+.layerBackAct {
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+}
+
+.cardBackgroundImg {
+    height: 250px;
+    width: 100%;
+    border-radius:15px;
+    object-fit: cover;
+}
+.picNone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--purple-dark);
+    height: 250px;
+    width: 100%;
+    border-radius:15px;
+    object-fit: cover;
+}
+
+.countDays {
+    margin-top: 5%;
+    color: var(--purple-light);
+}

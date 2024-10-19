@@ -1,0 +1,36 @@
+.groupBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.groupBtnBtn {
+    font-family: 'OpenSans_Medium';
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    transition: .2s;
+    align-self: center;
+    font-size: 15px;
+
+    width: 49%;
+    margin-bottom: 20px;
+}
+.groupBtnBtnFull {
+    font-family: 'OpenSans_Medium';
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    transition: .2s;
+    align-self: center;
+    font-size: 15px;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.groupBtnBtn:hover {
+    color: white;
+    background: var(--purple-dark);
+}

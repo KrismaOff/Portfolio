@@ -1,0 +1,8 @@
+.linkEvDelCell {
+    color: var(--purple-light);
+    cursor: pointer;
+    transition: .2s;
+}
+.linkEvDelCell:hover {
+    color: var(--purple);
+}

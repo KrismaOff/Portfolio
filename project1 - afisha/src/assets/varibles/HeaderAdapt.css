@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+    header .header {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    /* name - logo */
+    .header .projectNameIconCont {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .header .projectName {
+        font-size: 30px;
+    }
+    .header .logo {
+        width: 10%;
+    }
+    /* link - icon */
+    .header .iconWebGroup {
+        order: 2;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .iconWebGroup .iconImg {
+        width: 35px;
+    }
+    /* SearchInput */
+    .header .searchCont {
+        order: 3;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .searchCont .search {
+        /* border-radius: 10px; */
+        width: 100%;
+        padding: 10px;
+    }
+    /* СategoryCarusel */
+    header .СategoryCaruselCont {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .СategoryCaruselCont .CardCategoryLink {
+        font-size: .8em;
+    }
+    .СategoryCaruselCont .selectFilter {
+        width: 20%;
+        font-size: .8em;
+    }
+}

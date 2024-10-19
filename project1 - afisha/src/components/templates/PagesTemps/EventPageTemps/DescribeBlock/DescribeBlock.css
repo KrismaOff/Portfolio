@@ -1,0 +1,12 @@
+.eventDescRow {
+    margin-bottom: 10px;
+}
+.eventDesc {
+    font-size: 17px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.eventDescBtn {
+    color: var(--purple);
+    cursor: pointer;
+}

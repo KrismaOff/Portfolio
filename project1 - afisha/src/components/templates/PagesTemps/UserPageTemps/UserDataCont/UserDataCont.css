@@ -1,0 +1,17 @@
+.userInfo {
+    margin-left: 50px;
+    display: flex;
+}
+.titleInfo {
+    user-select: none;
+    font-family: 'OpenSans_Bold';
+    font-size: 18px;
+    text-align: left;
+}
+
+.infoUserCont {
+    text-align: left;
+}
+.infoUserCont:first-child {
+    margin-right: 50px;
+}
