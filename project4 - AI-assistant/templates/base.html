@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Это важно для мобильной адаптации -->
+    <title>LAWGPT</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/favico.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>    
+    <div class="body-content">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-container">
+                <div class="logo">
+                    <img src="../static/images/logo.svg" alt="Логотип" class="logo-img">
+                </div>
+                <div class="sidebar-icons">
+                    <div class="sidebar-icon" onclick="navigateTo('/')" id="home">
+                        <img src="../static/images/web-svgrepo-com.svg" alt="Home Icon">
+                        <span>Home</span>
+                    </div>
+                    <div class="sidebar-icon" onclick="navigateTo('/chats')" id="chats">
+                        <img src="../static/images/chat-square-svgrepo-com.svg" alt="Chat Icon">
+                        <span>Chats</span>
+                    </div>
+                    <div class="sidebar-icon" onclick="navigateTo('/profile')" id="profile">
+                        <img src="../static/images/person-svgrepo-com.svg" alt="Profile Icon">
+                        <span>Profile</span>
+                    </div>
+                </div>
+        
+                <div class="empty-block"></div>
+            </div>
+            <div class="sidebar-slider-container">
+                <div id="sidebar-slider" class="sidebar-slider"></div>
+            </div>
+        </div>
+    
+        <!-- Основной контент -->
+        <div class="main-content">
+            {% block content %}
+            <!-- Контент страницы -->
+            {% endblock %}
+            {% include 'banner.html' %}
+        </div>
+        <div class="empty-block-mobile"></div>
+        <div class="mobile-nav-block" id="mobile-nav-block">
+            <div class="mobile-nav">
+                <div class="sidebar-slider-mob" id="sidebar-slider-mob"></div>
+                <div class="mobile-nav-container">
+                    <div class="nav-item" onclick="navigateTo('/')" id="home">
+                        <img src="../static/images/web-svgrepo-com.svg" alt="Home Icon">
+                    </div>
+                    <div class="nav-item" onclick="navigateTo('/chats')"  id="chats">
+                        <img src="../static/images/chat-square-svgrepo-com.svg" alt="Chat Icon">
+                    </div>
+                    <div class="nav-item" onclick="navigateTo('/profile')" id="profile">
+                        <img src="../static/images/person-svgrepo-com.svg" alt="Profile Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

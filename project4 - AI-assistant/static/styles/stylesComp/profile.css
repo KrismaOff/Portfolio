@@ -1,0 +1,201 @@
+/* Основной контейнер профиля */
+.profile-container {
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    margin-left: 180px;
+}
+
+/* Стиль заголовков секций */
+.profile h2 {
+    margin-bottom: 30px;
+}
+
+/* Основная обертка профиля */
+.profile {
+    background: #1C2833;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Заголовок с кнопкой */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #dde6ed7e;
+}
+
+/* Кнопка активации PRO */
+.btn-pro {
+    width: 100%;
+    background-color: #FFCC66;
+    color: #000;
+    border: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-pro:hover {
+    background-color: #bb964c;
+    transform: scale(1.05);
+}
+
+/* Секция информации о профиле */
+.profile-section {
+    padding: 50px 20px;
+}
+
+.profile-info-user {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Имя пользователя */
+.profile-info-user p {
+    font-size: 25px;
+}
+
+/* Аватар пользователя */
+.profile-info-img {
+    width: 70px;
+    height: 70px;
+    background: green;
+    border-radius: 50%;
+}
+
+/* Секция настроек */
+.profile-settings {
+    margin-top: 50px;
+}
+
+/* Контейнер для настроек */
+.profile-settings-container {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+/* Кнопки для настроек */
+.profile-settings-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #29323a;
+    padding: 15px;
+    transition: .2s;
+}
+
+.profile-settings-button p {
+    font-size: 20px;
+}
+
+.profile-settings-button img {
+    width: 30px;
+    transition: .2s;
+}
+
+.profile-settings-button:first-child {
+    border-radius: 15px 15px 0 0;
+
+}
+
+.profile-settings-button:nth-child(5) {
+    border-radius: 0 0 15px 15px;
+}
+
+.profile-settings-button:hover {
+    background: #20262c;
+}
+
+/* Скрытые панели */
+.hidden-panel {
+    background: #29323a;
+    height: 0;
+    overflow: hidden;
+    transition: height .2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden-panel.active {
+    height: 50px;
+}
+
+/* Секция выхода */
+.profile-more {
+    margin-top: 50px;
+}
+
+/* Кнопка выхода */
+.profile-more-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #29323a;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    transition: .2s;
+}
+
+.profile-more-button:hover {
+    background: #20262c;
+}
+
+.profile-more-button img {
+    width: 30px;
+}
+
+.profile-more-button p {
+    font-size: 20px;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 599px) {
+    .profile-container {
+        margin-left: 0;
+    }
+
+    .profile-section {
+        padding: 35px 20px;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile-container {
+        height: 100%;
+    }
+}
+
+/* Адаптивные стили для планшетов */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .profile {
+        width: 60%;
+    }
+}
+
+/* Адаптивные стили для ноутбуков */
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+    .profile {
+        width: 50%;
+    }
+}

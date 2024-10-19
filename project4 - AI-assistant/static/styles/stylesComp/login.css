@@ -1,0 +1,136 @@
+/* Контейнер страницы входа */
+.login-container {
+    min-height: 100vh; /* Занимает всю высоту экрана */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрирование содержимого */
+    width: 100%; /* Ширина на всю страницу */
+}
+
+/* Карточка входа */
+.login-card {
+    background: #27374D; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3); /* Тень */
+    text-align: center;
+    width: 20%; /* Задаем ширину карточки */
+    height: fit-content; /* Высота подстраивается под содержимое */
+}
+
+/* Заголовок карточки входа */
+.login-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Описание под заголовком */
+.login-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Контейнер для кнопок социальных сетей */
+.social-login {
+    display: flex;
+    flex-direction: column; /* Кнопки располагаются по вертикали */
+    gap: 10px; /* Отступы между кнопками */
+    margin-bottom: 20px;
+}
+
+/* Стиль кнопок */
+.btn {
+    position: relative;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    transition: .2s;
+}
+
+/* Кнопка Google */
+.google-btn {
+    background: #fff; /* Белый фон */
+    color: black; /* Черный текст */
+}
+
+/* Кнопка Яндекс */
+.yandex-btn {
+    background: #FFCA00; /* Яркий желтый фон */
+}
+
+/* Hover эффект для кнопок социальных сетей */
+.google-btn:hover {
+    background: #c5c5c5; /* Изменение цвета при наведении */
+}
+
+.yandex-btn:hover {
+    background: rgb(163, 131, 4); /* Изменение цвета при наведении */
+}
+
+/* Иконки внутри кнопок */
+.btn img {
+    width: 20px;
+}
+
+.btn div {
+    width: 20px;
+}
+
+/* Разделитель "or" */
+.separator {
+    margin: 20px 0;
+    color: #aaaaaa;
+}
+
+/* Форма входа через email */
+.email-form input {
+    width: 100%; /* Поля ввода занимают всю ширину */
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #555; /* Темная рамка */
+    outline: none;
+    background: #555; /* Темный фон для полей ввода */
+    color: #ffffff; /* Белый текст */
+}
+
+/* Кнопка отправки формы */
+.email-form .submit-btn {
+    width: 100%; /* Кнопка занимает всю ширину */
+    font-weight: 600;
+    background: #007bff; /* Синий фон */
+}
+
+/* Hover эффект для кнопки отправки */
+.email-form .submit-btn:hover {
+    background: #0056b3; /* Изменение цвета при наведении */
+}
+
+/* Ссылка на регистрацию */
+.login-card p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login-card a {
+    color: #3498db; /* Синий текст ссылки */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+/* Hover эффект для ссылки */
+.login-card a:hover {
+    color: #2980b9; /* Изменение цвета при наведении */
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 599px) {
+    .login-card {
+        width: 80%; /* Ширина карточки увеличена на мобильных устройствах */
+    }
+}

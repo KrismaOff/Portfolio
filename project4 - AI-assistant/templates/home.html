@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Основной контейнер страницы -->
+<div class="home">
+    <!-- Поисковая строка -->
+    <div class="frame" id="search-frame">
+        <h2 id="home-title">Use AI Lawyer Search to make fastest research</h2>
+        <div class="search-container" id="search-container">
+            <!-- Поле для ввода поискового запроса -->
+            <input type="text" id="search-input" placeholder="Введите запрос" autocomplete="off">
+            <!-- Кнопка для отправки запроса -->
+            <div class="search-icon" id="message-icon" onclick="showChat()">
+                <img src="../static/images/chat/send.svg" alt="send">
+            </div>
+        </div>
+    </div>
+
+    <!-- Контейнер чата -->
+    <div class="frame" id="chat-frame">
+        <div class="chat-container">
+            <div class="chat-id-display-container">
+                <div id="chat-id-display"></div>
+                <div id="chat-name-display"></div>
+            </div>
+            <div id="chat-body"></div>
+            <div class="search-container-cont">
+                <!-- Поле для ввода сообщений -->
+                <div class="search-container">
+                    <input type="text" id="user-input" placeholder="Введите сообщение...">
+                    <!-- Кнопка для отправки сообщения -->
+                    <div class="search-icon" id="message-icon" onclick="sendMessage()">
+                        <img src="../static/images/chat/send.svg" alt="send">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

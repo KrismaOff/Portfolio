@@ -1,0 +1,169 @@
+/* Основной контейнер страницы чатов с flexbox для разделения боковой панели и основной области */
+.chat-page {
+  display: flex;
+  width: 100%;
+  /* color: white;  Цвет текста закомментирован */
+}
+
+/* Скрываем изображение в header по умолчанию */
+.chat-page header img {
+  display: none;
+}
+
+/* Пустой блок для создания отступов */
+.chat-page .empty-block {
+  width: 180px;
+  height: 100%;
+}
+
+/* Боковая панель чатов */
+.chat-sidebar {
+  width: 20%; /* Занимает 20% ширины экрана */
+  background: #1c2833; /* Цвет фона */
+  height: 100vh; /* Высота на весь экран */
+  color: white; /* Цвет текста */
+}
+
+/* Контейнер для списка чатов */
+.chat-sidebar-chats {
+  padding: 50px 20px 0; /* Отступы сверху и по бокам */
+}
+
+/* Кнопка для активации PRO версии */
+.chat-sidebar-newchat .btn-pro {
+  width: 100%; /* Ширина кнопки на всю панель */
+  margin-top: 50px; /* Отступ сверху */
+}
+
+/* Список чатов */
+.chat-list {
+  margin-top: 40px;
+}
+
+/* Заголовок списка чатов с кнопкой */
+.chat-list-title {
+  display: flex; /* Flexbox для выравнивания */
+  justify-content: space-between; /* Пространство между элементами */
+}
+
+/* Кнопка в заголовке списка чатов */
+.chat-list-title button {
+  border: none; /* Без рамки */
+  background: none; /* Прозрачный фон */
+  color: white;
+  font-size: 25px; /* Размер шрифта */
+  cursor: pointer; /* Указатель при наведении */
+}
+
+/* Список элементов чатов */
+#chat-list-items {
+  margin-top: 50px;
+  list-style-type: none; /* Убираем маркеры списка */
+  display: flex;
+  flex-direction: column; /* Выстраиваем элементы по вертикали */
+  gap: 20px; /* Отступы между элементами */
+  height: calc(100vh - 450px); /* Динамическая высота */
+  overflow: auto; /* Включаем скролл для списка */
+  -ms-overflow-style: none; /* Убираем стандартные скроллбары в IE */
+}
+
+/* Скрываем скроллбар для вебкита (Chrome, Safari) */
+#chat-list-items::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Стили для элементов списка чатов */
+#chat-list-items li {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 25px; /* Скругленные углы */
+  align-items: center;
+  align-self: center;
+  display: flex; /* Flexbox для выравнивания внутри элемента */
+  gap: 10px; /* Отступы между изображением и текстом */
+  padding: 20px;
+  background: #3e4852; /* Фон элементов списка */
+  transition: 0.2s; /* Плавный переход при изменении стилей */
+}
+
+/* Ховер эффект для элементов списка чатов */
+#chat-list-items li:hover {
+  background: #586674; /* Изменение фона при наведении */
+}
+
+/* Изображения внутри элементов списка */
+#chat-list-items li img {
+  width: 30px; /* Ширина изображений в списке чатов */
+}
+
+/* Основная область чата */
+.chat-page .chat-container {
+  width: calc(100% - 20% - 180px); /* Вычисляемая ширина с учетом боковой панели и отступов */
+}
+
+/* Заголовок основной области чата */
+.chat-page .chat-container h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Область сообщений в чате */
+.chat-page #chat-body {
+  height: 80vh; /* Высота основного контейнера для сообщений */
+}
+
+/* Мобильные стили */
+@media (max-width: 599px) {
+  /* Скрываем пустой блок на мобильных устройствах */
+  .chat-page .empty-block {
+    display: none;
+  }
+
+  /* Стили для header на мобильных устройствах */
+  .chat-page header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Показываем изображение в header на мобильных устройствах */
+  .chat-page header img {
+    display: unset;
+    width: 40px;
+  }
+
+  /* Стили для основной области чата на мобильных устройствах */
+  .chat-page .chat-container header {
+    margin-top: 10px;
+  }
+
+  /* Скрываем основную область чата на мобильных устройствах по умолчанию */
+  .chat-page .chat-container {
+    display: none;
+    width: 90%;
+    margin: auto;
+  }
+
+  /* Изменяем отступы для списка чатов на мобильных устройствах */
+  .chat-page .chat-sidebar-chats {
+    padding: 20px;
+  }
+
+  /* Высота списка чатов на мобильных устройствах */
+  #chat-list-items {
+    height: 40vh;
+    margin-top: 20px;
+  }
+
+  /* Боковая панель на мобильных устройствах */
+  .chat-page .chat-sidebar {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 100px); /* Высота с учетом отступов */
+  }
+
+  /* Высота основного контейнера для сообщений на мобильных устройствах */
+  .chat-page #chat-body {
+    height: 70vh;
+  }
+}

@@ -1,0 +1,83 @@
+<!-- Шаблон chats.html расширяет базовый шаблон base.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="chat-page">
+    <!-- Пустой блок для отступов -->
+    <div class="empty-block"></div>
+
+    <!-- Боковая панель чатов -->
+    <div class="chat-sidebar" id="chat-sidebar">
+        <!-- Заголовок боковой панели -->
+        <div class="header">
+            <!-- Кнопка активации PRO-версии -->
+            <button class="btn-pro" onclick="showBanner(true)">Activate PRO</button>
+        </div>
+
+        <!-- Список чатов -->
+        <div class="chat-sidebar-chats">
+            <div class="chat-sidebar-newchat">
+                <h1>Chats</h1>
+                <!-- Кнопка для создания нового чата -->
+                <button class="btn-pro" onclick="startNewChat()">New Chat</button>
+            </div>
+
+            <!-- История чатов -->
+            <div class="chat-list" id="chat-list">
+                <div class="chat-list-title">
+                    <h2>History</h2>
+                    <button>⋮</button> <!-- Кнопка с тремя точками для опций -->
+                </div>
+                <ul id="chat-list-items">
+                    <!-- Если есть чаты, отображаем их -->
+                    {% if chats %}
+                    {% for chat in chats|reverse %}
+                    <li onclick="if (window.innerWidth <= 599) { selectChat('{{ chat.chat_id }}'); } else { loadChat('{{ chat.chat_id }}'); }">
+                        <img src="../static/images/chat/chat.svg" alt="icon message">
+                        <p>Чат ID: {{ chat.chat_id }}</p>
+                    </li>
+                    {% endfor %}
+                    <!-- Если чатов нет, выводим сообщение -->
+                    {% else %}
+                    <li>У вас пока нет активных чатов.</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Основная область чата -->
+    <div class="chat-container" id="chat-container">
+        <header>
+            <!-- Кнопка для возврата к боковой панели на мобильных устройствах -->
+            <img onclick="backToSidebar()" src="../static/images/chat/back.svg" alt="back">
+            <h1>Чат с ассистентом</h1>
+        </header>
+
+        <!-- Контейнер для отображения ID чата и имени -->
+        <div class="chat-id-display-container">
+            <div id="chat-id-display"></div>
+            <div id="chat-name-display"></div>
+        </div>
+
+        <!-- Основная область для сообщений чата -->
+        <div id="chat-body"></div>
+
+        <!-- Контейнер для ввода сообщений -->
+        <div class="search-container">
+            <!-- Кнопка для загрузки файлов -->
+            <div class="search-icon" onclick="downloadFileInChat()">
+                <img src="../static/images/chat/clip.svg" alt="clip">
+            </div>
+            <!-- Поле для выбора файла -->
+            <input type="file" id="file-input" style="display: none;" />
+            <!-- Поле для ввода сообщения -->
+            <input type="text" id="user-input" placeholder="Введите сообщение...">
+            <!-- Кнопка для отправки сообщения -->
+            <div class="search-icon" id="message-icon" onclick="sendMessage()">
+                <img src="../static/images/chat/send.svg" alt="send">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+<!-- Шаблон страницы профиля -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="profile-container">
+    <div class="profile">
+        <!-- Заголовок с кнопкой активации PRO-версии -->
+        <div class="header">
+            <button class="btn-pro" onclick="showBanner(true)">Activate PRO</button>
+        </div>
+
+        <!-- Информация о профиле -->
+        <div class="profile-section">
+            <div class="profile-info">
+                <h1>Profile</h1>
+                <div class="profile-info-user">
+                    <!-- Аватар пользователя -->
+                    <div class="profile-info-img"></div>
+                    <p>Nikita Semukhin</p>
+                </div>
+            </div>
+
+            <!-- Настройки профиля -->
+            <div class="profile-settings">
+                <h2>Settings</h2>
+                <div class="profile-settings-container">
+                    <!-- Кнопка для панели подписки -->
+                    <div class="profile-settings-button" id="subscription" onclick="togglePanel(this)">
+                        <img src="../static/images/profile/follower.svg" alt="icon">
+                        <p>Subscription</p>
+                        <img src="../static/images/profile/arrow.svg" alt="arrow">
+                    </div>
+                    <div id="subscription-panel" class="hidden-panel">
+                        <p>Заглушка</p>
+                    </div>
+
+                    <!-- Кнопка для панели поддержки -->
+                    <div class="profile-settings-button" id="service" onclick="togglePanel(this)">
+                        <img src="../static/images/profile/support.svg" alt="icon">
+                        <p>Customer Service</p>
+                        <img src="../static/images/profile/arrow.svg" alt="arrow">
+                    </div>
+                    <div id="service-panel" class="hidden-panel">
+                        <p>Заглушка</p>
+                    </div>
+
+                    <!-- Кнопка для панели личной информации -->
+                    <div class="profile-settings-button" id="info" onclick="togglePanel(this)">
+                        <img src="../static/images/profile/personal.svg" alt="icon">
+                        <p>Personal Info</p>
+                        <img src="../static/images/profile/arrow.svg" alt="arrow">
+                    </div>
+                    <div id="info-panel" class="hidden-panel">
+                        <p>Заглушка</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Раздел с кнопкой выхода -->
+            <div class="profile-more">
+                <h2>More</h2>
+                <div class="profile-more-button">
+                    <p>Log out</p>
+                    <img src="../static/images/profile/logout.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

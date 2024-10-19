@@ -1,0 +1,20 @@
+<!-- Шаблон verify_code.html расширяет базовый шаблон base.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="form-container">
+    <!-- Карточка с формой для подтверждения кода -->
+    <div class="login-card">
+        <h3>Подтверждение регистрации</h3> <!-- Заголовок формы -->
+        <!-- Форма для отправки кода подтверждения -->
+        <form method="POST" action="{{ url_for('auth.verify_code') }}">
+            <div class="form-group">
+                <!-- Поле ввода для кода подтверждения -->
+                <input type="text" id="verification_code" placeholder="Код подтверждения" name="verification_code" required>
+            </div>
+            <!-- Кнопка для отправки формы -->
+            <button class="btn submit-btn" type="submit">Подтвердить</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

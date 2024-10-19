@@ -1,0 +1,220 @@
+/* Основной контейнер страницы */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Общие стили для секций */
+.frame {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    width: 60%;
+    transition: .6s ease-out;
+    opacity: 1;
+    text-align: center;
+}
+
+/* Поисковая строка */
+#search-frame {
+    height: 110px;
+    justify-content: center;
+    top: calc(50% - 110px);
+}
+
+/* Контейнер для чата */
+#chat-frame {
+    opacity: 0;
+    display: none;
+    top: 100%;
+}
+
+/* Заголовок страницы */
+.home h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Контейнер поиска */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background: #383A42;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Поле ввода внутри контейнера поиска */
+.search-container input {
+    font-size: 20px;
+    color: #E0E0E0;
+    background: none;
+    border: none;
+    padding: 15px;
+    flex-grow: 1;
+    outline: none;
+}
+
+/* Иконка отправки */
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383A42;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* Размер иконки */
+.search-icon img {
+    width: 30px;
+    transition: .2s;
+}
+
+/* Анимация при наведении */
+.search-icon:hover img {
+    transform: scale(1.2);
+}
+
+/* Контейнер для чата */
+.chat-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+/* Область для сообщений */
+#chat-body {
+    padding-bottom: 20px;
+    height: 80vh;
+    border-radius: 25px 25px 25px 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Скрытие скроллбара */
+#chat-body::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Контейнер для ввода сообщений */
+.search-container-cont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.chat-container .search-container {
+    width: 100%;
+}
+
+/* Контейнер для ID и имени чата */
+.chat-id-display-container {
+    height: 5vh;
+    text-align: left;
+}
+
+#chat-name-display {
+    font-size: 25px;
+    color: white;
+}
+
+/* Сообщения пользователей и ассистента */
+.message {
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.user-message {
+    align-self: flex-end;
+    max-width: 30%;
+    background: white;
+    border-radius: 25px 25px 5px;
+}
+
+.assistant-message {
+    max-width: 60%;
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 25px 25px 25px 5px;
+    background: rgba(0, 0, 0, 0.247);
+    color: rgb(197, 197, 197);
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 599px) {
+    .home {
+       min-height: calc(100vh - 100px); 
+    }
+
+    .frame {
+        width: 85%;
+    }
+
+    #home-title {
+        font-size: 15px;
+    }
+
+    #search-frame {
+        height: auto;
+        justify-content: center;
+        top: 45%;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+
+    .search-container input {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .chat-container {
+        padding: 0;
+    }
+
+    #chat-body {
+        gap: 30px;
+        height: 64vh;
+        border-radius: 10px;
+    }
+
+    .message {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .user-message {
+        max-width: 80%;
+        border-radius: 10px 10px 3px 10px;
+    }
+
+    .assistant-message {
+        max-width: 80%;
+        padding: 14px;
+        border-radius: 10px 10px 10px 3px;
+    }
+}
+
+/* Адаптивные стили для планшетов */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    #home-title {
+        font-size: 15px;
+    }
+}

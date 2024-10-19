@@ -1,0 +1,22 @@
+<!-- Шаблон страницы регистрации -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="login-container">
+    <div class="login-card">
+        <h3>Регистрация</h3>
+        <!-- Форма регистрации -->
+        <form method="POST" action="{{ url_for('auth.register') }}">
+            <!-- Поля ввода для имени, фамилии, email и пароля -->
+            <input type="text" id="first_name" name="first_name" placeholder="Имя" required>
+            <input type="text" id="last_name" name="last_name" placeholder="Фамилия" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Пароль" required>
+            <!-- Кнопка для отправки формы -->
+            <button type="submit" class="btn submit-btn">Зарегистрироваться</button>
+        </form>
+        <!-- Ссылка на страницу входа -->
+        <p>Уже есть аккаунт? <a href="{{ url_for('auth.login') }}">Войти</a></p>
+    </div>
+</div>
+{% endblock %}

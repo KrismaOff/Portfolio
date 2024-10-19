@@ -1,0 +1,44 @@
+/* Заголовок формы регистрации */
+.login-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Поля ввода для формы */
+.login-card input {
+    width: 100%; /* Поля занимают всю ширину */
+    padding: 15px; /* Внутренние отступы */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    border-radius: 15px; /* Скругленные углы */
+    border: none; /* Убираем стандартную рамку */
+    background: #3b4a5e; /* Темный фон для полей */
+    color: #ecf0f1; /* Белый цвет текста */
+    font-size: 16px; /* Размер текста */
+    transition: background 0.3s ease-in-out; /* Плавный переход цвета фона */
+}
+
+/* Фокус на полях ввода */
+.login-card input:focus {
+    background: #4e6a8e; /* Меняем фон при фокусе */
+    outline: none; /* Убираем стандартное выделение */
+}
+
+/* Кнопка для отправки формы */
+.login-card .btn.submit-btn {
+    background: #3498db; /* Синий фон */
+    border: none; /* Убираем рамку */
+    color: #ffffff; /* Белый цвет текста */
+    padding: 15px; /* Внутренние отступы */
+    font-size: 16px; /* Размер текста */
+    border-radius: 25px; /* Скругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    margin-top: 10px; /* Отступ сверху */
+    width: 100%; /* Кнопка занимает всю ширину */
+    transition: background 0.3s ease-in-out; /* Плавный переход цвета фона */
+}
+
+/* Hover эффект для кнопки */
+.login-card .btn.submit-btn:hover {
+    background: #2980b9; /* Темно-синий цвет при наведении */
+}

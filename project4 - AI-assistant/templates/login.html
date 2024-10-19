@@ -1,0 +1,39 @@
+<!-- Шаблон страницы входа -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="login-container">
+    <div class="login-card">
+        <!-- Заголовок формы входа -->
+        <h3>Вход в систему</h3>
+        <p>Станьте один из тех, кто доверяет нам!</p>
+
+        <!-- Кнопки для входа через социальные сети -->
+        <div class="social-login">
+            <button class="btn google-btn">
+                <img src="../static/images/google-icon-logo-svgrepo-com.svg" alt="google">Login with Google
+                <div></div>
+            </button>
+            <button class="btn yandex-btn">
+                <img src="../static/images/yandex-svgrepo-com.svg" alt="yandex">Login with Yandex
+                <div></div>
+            </button>
+        </div>
+
+        <!-- Разделитель -->
+        <div class="separator">or</div>
+
+        <!-- Форма входа через email -->
+        <form class="email-form" method="POST" action="{{ url_for('auth.login') }}">
+            <input type="email" id="email" name="email" placeholder="Введите вашу почту" required>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+            <button type="submit" class="btn submit-btn">Войти</button>
+        </form>
+
+        <!-- Ссылка на регистрацию -->
+        <p class="register-link">Ещё нет аккаунта? 
+            <a href="{{ url_for('auth.register') }}">Зарегистрируйтесь</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

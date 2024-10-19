@@ -1,0 +1,229 @@
+/* Импорт глобальных стилей и отдельных стилей для страниц */
+@import url('./global.css');
+@import url('./stylesComp/login.css');
+@import url('./stylesComp/register.css');
+@import url('./stylesComp/profile.css');
+@import url('./stylesComp/home.css');
+@import url('./stylesComp/chats.css');
+@import url('./stylesComp/verify_code.css');
+
+/* Основная обертка страницы */
+.body-content {}
+
+/* Основной контент страницы с центровкой по горизонтали */
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Боковая панель */
+.sidebar {
+    z-index: 100;
+    display: flex;
+    position: relative;
+    height: 100%;
+    position: fixed;
+    left: 0;
+}
+
+/* Контейнер для слайдера боковой панели */
+.sidebar-slider-container {
+    position: relative;
+}
+
+/* Слайдер боковой панели */
+.sidebar-slider {
+    border-radius: 20px;
+    position: absolute;
+    right: -1px;
+    background: white;
+    width: 3px;
+    height: 50px;
+    transition: .5s;
+}
+
+/* Контейнер боковой панели */
+.sidebar-container {
+    width: 180px;
+    background: #1C2833;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    transition: width 0.3s ease;
+    border-right: 1px solid #dde6ed7e;
+}
+
+/* Логотип внутри боковой панели */
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Изображение логотипа */
+.logo .logo-img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Контейнер для иконок навигации */
+.sidebar-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    padding-left: 15px;
+}
+
+/* Стили для каждой иконки навигации */
+.sidebar-icon {
+    display: flex;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 12px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.1s ease-in-out, transform 0.1s ease-in-out;
+    color: #DDE6ED;
+}
+
+/* Анимация при наведении на иконку */
+.sidebar-icon:hover {
+    background-color: #27374D;
+    transform: translateX(4px);
+}
+
+/* Стили для изображения иконки */
+.sidebar-icon img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+/* Стили для текста иконки */
+.sidebar-icon span {
+    color: #DDE6ED;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Контейнер для пустого блока (навигация/футер) */
+.empty-block {
+    width: 100px;
+    height: 100px;
+}
+
+/* Мобильная навигация */
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Контейнер для мобильных иконок */
+.mobile-nav-container {
+    display: none;
+    width: 100%;
+    background: #1C2833;
+    padding: 10px 0;
+    height: 100px;
+    justify-content: space-around;
+    border-top: 1px solid #dde6ed7e;
+}
+
+/* Стиль для элемента навигации */
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Изображение в элементе навигации */
+.nav-item img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Анимация при наведении на мобильную иконку */
+.nav-item:hover img {
+    transform: scale(1.2);
+}
+
+/* Слайдер для мобильной навигации */
+.sidebar-slider-mob {
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 3px;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 599px) {
+    .body-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Скрываем боковую панель на мобильных устройствах */
+    .sidebar {
+        display: none;
+    }
+
+    /* Показываем мобильную навигацию */
+    .mobile-nav-container {
+        display: flex;
+    }
+
+    /* Пустой блок для отступов на мобильных устройствах */
+    .empty-block-mobile {
+        height: 100px;
+        width: 100%;
+    }
+}
+
+/* Анимация для точек (например, для загрузки или статуса) */
+@keyframes dots {
+    0% { content: "•"; }
+    33% { content: "••"; }
+    66% { content: "•••"; }
+    100% { content: ""; }
+}
+
+/* Контейнер для анимации точек */
+.animated-dots {
+    font-size: 60px;
+    height: 50px;
+    width: 105px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: left;
+}
+
+/* Анимация для точек */
+.animated-dots::after {
+    content: "";
+    animation: dots 1.5s steps(1) infinite;
+    position: relative;
+    top: -7px;
+}
+
+/* Адаптивные стили для анимации на мобильных устройствах */
+@media only screen and (max-width: 599px) {
+    .animated-dots {
+        font-size: 40px;
+        height: 40px;
+        width: 65px;
+        padding: 0 10px;
+    }
+
+    .animated-dots::after {
+        top: -2px;
+    }
+}
