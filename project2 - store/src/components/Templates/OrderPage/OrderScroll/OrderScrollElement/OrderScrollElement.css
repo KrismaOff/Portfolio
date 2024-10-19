@@ -1,0 +1,39 @@
+.order_scroll_element {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.order_scroll_element_img_cont {
+    padding: 10px 10px;
+    width: 70px;
+    height: 70px;
+    background: var(--mainTCW);
+    border-radius:20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order_scroll_element_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.order_scroll_element_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.order_scroll_element_title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.order_scroll_element_cost {
+    font-size: 14px;
+    font-weight: 500;
+}

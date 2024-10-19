@@ -1,0 +1,7 @@
+.log_reg_icon {
+    background: white;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    border: 1px solid black
+}

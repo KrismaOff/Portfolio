@@ -1,0 +1,38 @@
+
+.basket_product_block_del_cont {
+    position: relative;
+    border-radius: 20px;
+    background: rgba(194, 209, 217, 0.5);
+    text-align: left;
+    padding: 20px;
+    font-family: Montserrat Alternates;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.basket_product_block_del_brand {
+    width: 70px;
+}
+
+.basket_product_block_del_title {
+    font-size: 20px;
+    font-weight: 700;
+
+    display: grid;
+    gap: 5px;
+}
+
+.basket_product_block_del_restore {
+    align-self: center;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.basket_product_block_del_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}

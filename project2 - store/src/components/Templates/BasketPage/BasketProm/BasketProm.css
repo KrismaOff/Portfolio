@@ -1,0 +1,33 @@
+.basket_prom {
+}
+
+.basket_prom_title {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.basket_prom_title_button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    width: calc(100% - 40px);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.basket_prom_red::-webkit-input-placeholder {
+    color: #B60707;
+}
+
+.basket_prom_green::-webkit-input-placeholder {
+    color: #7EB607;
+}
+

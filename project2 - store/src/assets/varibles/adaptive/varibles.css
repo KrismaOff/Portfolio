@@ -1,0 +1,8 @@
+:root {
+    --mainTCB: #181818;
+    --mainTCW: #F8F8F8;
+    --mainPageBG:#C2D1D9;
+
+    --globalWidth: 1200px;
+    --globalWidthMobile: 80%;
+}

@@ -1,0 +1,9 @@
+.details_string {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 200;
+}

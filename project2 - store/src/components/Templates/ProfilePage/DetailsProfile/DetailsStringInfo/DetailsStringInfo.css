@@ -1,0 +1,43 @@
+.details_string_info {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.details_string_info_cont {
+    display: flex;
+    gap: 0;
+}
+
+.details_string_info span {
+    width: 200px;
+}
+
+.details_string_info span:last-child {
+    font-weight: 300;
+}
+
+.details_string_info input {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px 15px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.details_string_info button {
+    margin-top: 10px;
+    display: flex;
+    padding: 6px 10px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.profile_page_cont {
+    display: grid;
+    gap: 15px;
+}

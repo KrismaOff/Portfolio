@@ -1,0 +1,18 @@
+.nav_bar_profile p {
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 300;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav_bar_profile p:last-child {
+    margin-top: 40px;
+}
+
+.nav_bar_profile_adapt {
+    display: none;
+}

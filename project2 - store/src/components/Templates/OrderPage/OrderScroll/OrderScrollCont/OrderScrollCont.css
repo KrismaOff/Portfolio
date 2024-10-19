@@ -1,0 +1,30 @@
+.order_scroll_cont {
+    display: grid;
+    grid-template-columns: 97% 3%;
+    margin-bottom: 15px;
+}
+
+.order_scroll_cont_cont {
+    height: 300px;
+    overflow: auto;
+    display: grid;
+    background: var(--more, #C2D1D9);
+}
+
+.order_scroll_cont_cont::-webkit-scrollbar {
+    display: none;
+}
+
+.order_scroll_cont_scrollbar {
+    width: 8px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: var(--mainTCW);
+}
+
+.order_scroll_cont_scrollbar_elem {
+    width: 8px; 
+    height: 50px;
+    background: black;
+}

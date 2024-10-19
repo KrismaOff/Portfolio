@@ -1,0 +1,46 @@
+.adress_block {
+    width:var(--globalWidth);
+    margin: auto ;
+    margin-top: 20px;
+}
+
+.adress_block_title {
+    text-align: left;
+    color: var(--mainTCB);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.adress_block_text {
+    margin-top: 10px;
+    text-align: left;
+    color: var(--mainTCB);
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.adress_block_text_add p {
+    text-align: left;
+    color: var(--mainTCB);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25%;
+}
+
+.adress_block_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress_block_stories {
+    width: 25%;
+    margin-top: 20px;
+}

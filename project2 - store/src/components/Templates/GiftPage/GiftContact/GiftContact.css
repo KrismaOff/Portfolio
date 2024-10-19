@@ -1,0 +1,37 @@
+.gift_contact {
+    height: 650px;
+}
+.gift_contact_block {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px 0 150px;
+}
+.gift_contact_block_cont {
+    text-align: left;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    width: 60%;
+}
+.gift_contact_block_cont_title {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    gap:10px ;
+}
+
+.gift_contact_block_img {
+    position: absolute;
+    margin: 30px auto auto;
+}
+.gift_contact_block_img_img {
+    border-radius: 20px;
+    width: 70%;
+    height: 500px;
+    object-fit: cover;   
+}

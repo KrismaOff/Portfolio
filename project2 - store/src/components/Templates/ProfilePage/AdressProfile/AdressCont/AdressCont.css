@@ -1,0 +1,36 @@
+.adress_cont {
+    text-align: left;
+}
+
+.adress_cont_cont {
+    margin-top: 40px;
+}
+
+.adress_cont_cont_btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.adress_cont_cont_btn span {
+    font-size: 25px;
+}
+
+.retCan {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.adress_cont_cont hr {
+    margin: 20px 0;
+}

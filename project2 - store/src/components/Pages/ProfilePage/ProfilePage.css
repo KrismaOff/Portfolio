@@ -1,0 +1,23 @@
+.profile_page {
+    width: var(--globalWidth);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+    min-height: 100vh;
+}
+
+.profile_page_title {
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.profile_page_title_sec {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+}

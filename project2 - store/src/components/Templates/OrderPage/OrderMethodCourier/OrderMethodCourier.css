@@ -1,0 +1,64 @@
+.order_method_courier {
+    font-family: Montserrat Alternates;
+    text-align: left;
+}
+
+.order_method_courier_title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.order_method_courier_text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.order_method_courier_form {
+    margin: 20px 0;
+}
+
+.order_method_courier_form_cont {
+    display: flex;
+    margin: 15px 0;
+    gap: 10px;
+}
+.order_method_courier_form_cont_cont {
+    display: flex;
+    gap: 10px;
+}
+.order_method_courier_form_adress {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    width: calc(100% - 40px);
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;  
+}
+.order_method_courier_form_inp {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    width: 30%;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+.order_method_courier_form_inp::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.order_method_courier_form_text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    resize: none;
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 20px;
+    height: 90px;
+    width: calc(100% - 40px);
+}

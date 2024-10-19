@@ -1,0 +1,76 @@
+.log_reg_temp {
+    width: var(--globalWidth);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log_reg_temp_form {
+    width: 50%;
+}
+
+.log_reg_temp_form_cont {
+    padding: 45px 100px;
+    border-radius: 20px;
+    background: var(--mainPageBG);
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.log_reg_temp_form_cont_title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.log_reg_temp_form_cont_in_c {
+    margin: 50px auto 20px;
+}
+
+.log_reg_temp_form_cont_in_c input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.log_reg_temp_form_cont_in_c div {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.log_reg_temp_form_cont_accept {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.log_reg_temp_form_cont_line {
+    margin: 30px auto;
+    height: 1px;
+    width: 40%;
+    background: black;
+}
+
+.log_reg_temp_form_cont_or {
+    font-size: 17px;
+}
+
+.log_reg_temp_form_cont_icons {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    margin: 20px auto auto;
+}
+
+.log_reg_temp_form_cont_have {
+    margin-top: 70px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.log_reg_temp_form_cont_link {
+    font-size: 17px;
+    color: black;
+}

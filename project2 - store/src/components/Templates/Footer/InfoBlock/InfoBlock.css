@@ -1,0 +1,23 @@
+.info_block {
+    /* background: green; */
+    /* width: 30%; */
+    text-align: left;
+}
+
+.info_block_title {
+    color: var(--mainTCW);
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info_block_text p {
+    color: var(--mainTCW);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,25 @@
+.back {
+    text-align: left;
+}
+.back_title {
+    color: #818181;
+    font-family: Montserrat;
+    font-size: 20px; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.back_btn {
+    text-decoration: none;
+    color: #818181;
+}
+.back_btn span {
+    margin-left: 15px;
+}
+.back_btn_stick {
+    margin:0 30px;
+}
+
+.back_page_link {
+    font-size: 20px;
+}

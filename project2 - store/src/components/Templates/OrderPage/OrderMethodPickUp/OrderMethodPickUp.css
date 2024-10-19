@@ -1,0 +1,33 @@
+.order_method_pickup {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.order_method_pickup_title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.order_method_pickup_info_group {
+    margin: 20px auto 30px;
+    font-family: Montserrat;
+    display: flex;
+    gap: 20px;
+}
+
+.order_method_pickup_info {
+    display: grid;
+    gap: 5px;
+}
+
+.order_method_pickup_info_title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.order_method_pickup_info_info {
+    font-size: 14px;
+    font-weight: 400;
+}

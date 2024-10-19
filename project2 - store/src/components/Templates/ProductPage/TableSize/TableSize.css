@@ -1,0 +1,23 @@
+.table_size {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.table_size_table {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.table_size_table tr th:first-child,
+.table_size_table tr td:first-child {
+    padding: 10px;
+    text-align: left;
+}

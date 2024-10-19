@@ -1,0 +1,4 @@
+.catalog_page_cont {
+    width: var(--globalWidth);
+    margin: auto;
+}

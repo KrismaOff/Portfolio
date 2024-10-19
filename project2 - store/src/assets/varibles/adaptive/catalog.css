@@ -1,0 +1,62 @@
+@media (min-width: 280px) and (max-width: 800px) {
+    body .catalog_page_cont {
+        width: var(--globalWidthMobile);
+    }
+    .catalog_page .catalog_page_cont_tags {
+        width: calc(var(--globalWidthMobile) + 10%);
+        margin-left: calc((100% - var(--globalWidthMobile)) / 2);
+    }
+    body .tab_block_tags_cont {
+        overflow-x: scroll;
+    }
+    .tab_block_tags_cont::-webkit-scrollbar {
+        display: none;
+    }
+
+    body .custom_select {
+        position: initial;
+    }
+    .custom_select .custom_select_options {
+        z-index: 10;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: var(--mainPageBG);
+        border-radius: 20px 20px 0px 0px; 
+        border: 0;
+    }
+    .custom_select .custom_select_options_cont {
+        overflow-y: scroll;
+        height: 25vh;
+    }
+    .custom_select .custom_select_options_cont_name {
+        position: relative;
+        padding: 30px;
+        border-bottom: 1px solid black;
+        display: block;
+        font-family: Montserrat Alternates;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .custom_select .custom_select_options_cont_cross {
+        position: absolute;
+        right: 32px;
+    } 
+    .custom_select_options .custom_select_options_show {
+        display: block;
+        padding: 30px;
+        background: var(--mainTCW);
+    }
+
+    .custom_select_options .custom_select_radio_btn {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 2000px) {
+    
+}

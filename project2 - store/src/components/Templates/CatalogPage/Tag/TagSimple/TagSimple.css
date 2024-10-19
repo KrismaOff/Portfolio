@@ -1,0 +1,21 @@
+.tag_simple {
+    border-radius: 20px;
+    border: 1px solid var(--mainTCB);
+    background: var(--mainTCW);
+    padding: 10px 15px;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    user-select: none;
+
+    transition: .2s;
+}
+
+.actTag {
+    background: var(--mainTCB);
+    color: var(--mainTCW);
+}

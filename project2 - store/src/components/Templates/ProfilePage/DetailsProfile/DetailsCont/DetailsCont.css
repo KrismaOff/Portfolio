@@ -1,0 +1,20 @@
+.details_cont {
+    text-align: left;
+}
+
+.profile_page_btn {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+}
+
+.profile_page_cont button {
+    width: fit-content;
+    padding: 6px 10px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid black;
+} 

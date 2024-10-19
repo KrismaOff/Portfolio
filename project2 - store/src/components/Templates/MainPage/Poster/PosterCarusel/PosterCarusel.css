@@ -1,0 +1,64 @@
+.poster_carusel_arrow {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.poster_carusel_arrow:hover {
+    transform: scale(1.05);
+}
+
+.poster_carusel_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr;
+    place-items: center;
+    padding-bottom: 50px;
+    background: var(--mainTCW);
+}
+
+.poster_carusel_window {
+    width: 100%;
+}
+.poster_carusel_window::-webkit-scrollbar {
+    display: none;
+}
+
+.poster_carusel_all_items {
+    display: flex;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.poster_carusel_points_block_cont {
+    background: var(--mainTCW);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.poster_carusel_point_active {
+    border: 1px solid black;
+    background: black;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+.poster_carusel_point_passive {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    transition: .2s;
+}
+
+.poster_carusel_point_passive:hover {
+    transform: scale(1.2);
+}
+
+.poster_carusel_all_items_empty {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    background: var(--mainPageBG);
+}

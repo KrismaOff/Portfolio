@@ -1,0 +1,53 @@
+@media (min-width: 280px) and (max-width: 800px) {
+    body .profile_page {
+        width: var(--globalWidthMobile);
+        display: block;
+        min-height: fit-content;
+    }
+
+    .profile_page .profile_page_title {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .profile_page .profile_page_title_sec {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .profile_page .nav_bar_profile {
+        display: none;
+    }
+
+    .profile_page .nav_bar_profile_adapt {
+        width: calc(100% - 30px);        
+        box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.10);
+        justify-content: space-around;
+        margin-bottom: 30px;
+        /* background: #f8f8f880; */
+        background: var(--mainTCW);
+        border-radius: 50px;
+        /* position: fixed; */
+        display: flex;
+        padding: 15px;
+        /* bottom: 120px; */
+        gap: 20px;
+    }
+
+    .nav_bar_profile_adapt span {
+        background: black;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    .profile_page .adress_cont .adress_cont_cont {
+        margin-top: 25px;
+    }
+
+    .adress_cont .adress_edit button {
+        font-size: 18px;
+        padding: 5px 0;
+        width: 80px;
+    }
+}

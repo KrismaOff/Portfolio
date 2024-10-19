@@ -1,0 +1,36 @@
+footer {
+    background: var(--mainTCB );
+    padding: 50px 160px;
+}
+
+.footer_cont {
+    width:var(--globalWidth);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    /* padding: 50px 160px; */
+}
+.footer_part_right {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.footer_icon_group {
+    width: 100%;
+    margin-top:50px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.footer_title {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--mainTCW);
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

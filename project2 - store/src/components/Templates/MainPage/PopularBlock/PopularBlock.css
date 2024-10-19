@@ -1,0 +1,11 @@
+.popular_block {
+    margin-top: 3.5%;
+}
+.popular_block_title {
+    color: var(--mainTCB);
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

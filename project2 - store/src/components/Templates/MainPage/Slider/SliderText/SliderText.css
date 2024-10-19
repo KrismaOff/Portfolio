@@ -1,0 +1,14 @@
+.slider_text_block {
+    text-align: left;
+}
+
+.slider_text_title {
+    margin-left: 5%;
+    color: var(--mainTCB);
+    font-size: 35px;
+    width: 40%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: pre-wrap
+}

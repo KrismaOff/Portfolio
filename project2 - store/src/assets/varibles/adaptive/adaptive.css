@@ -1,0 +1,13 @@
+@import url('../adaptive/registration.css');
+@import url('../adaptive/general.css');
+@import url('../adaptive/catalog.css');
+@import url('../adaptive/product.css');
+@import url('../adaptive/profile.css');
+@import url('../adaptive/basket.css');
+@import url('../adaptive/order.css');
+@import url('../adaptive/main.css');
+@import url('../adaptive/gift.css');
+/* 
+@media (min-width: 280px) and (max-width: 800px) {}
+@media (min-width: 2000px) {} 
+*/

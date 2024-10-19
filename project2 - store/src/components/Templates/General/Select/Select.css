@@ -1,0 +1,13 @@
+.select {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+}

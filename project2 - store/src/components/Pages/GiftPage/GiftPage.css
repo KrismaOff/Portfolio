@@ -1,0 +1,28 @@
+.gift_page {
+    width: var(--globalWidth);
+    margin: 50px auto auto;
+}
+
+.gift_page_cont {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, calc(50% - 15px));
+    gap: 30px;
+}
+
+.gift_page_title_cont {
+    font-family: Montserrat Alternates;
+    text-align: left;
+    height: 200px;
+}
+.gift_page_text {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.gift_page_title {
+    text-align: left;
+    font-size: 33px;
+    font-weight: 700;
+}

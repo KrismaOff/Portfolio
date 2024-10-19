@@ -1,0 +1,43 @@
+.poster_card_big {
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+.poster_card_big_image {
+    width:550px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.poster_card_big_title {
+    color: var(--mainTCB);
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+}
+.poster_card_big_cost {
+    color: var(--mainTCB);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.poster_card_big_button {
+    margin-top: 3%;
+    padding: 5px;
+    border-radius: 50px;
+    width: 150px;
+    background: #C2D1D9;
+    text-decoration: none;
+    color: var(--mainTCB);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.poster_card_big_button:hover {
+    background: var(--mainTCB);
+    color: var(--mainTCW);
+}

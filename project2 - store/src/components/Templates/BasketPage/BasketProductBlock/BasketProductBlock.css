@@ -1,0 +1,63 @@
+.basket_product_block {
+    border-top: 1px solid #000;
+    font-family: Montserrat Alternates;
+}
+
+.basket_product_block_cont {
+    display: grid;
+    grid-template-columns: 30% calc(70% - 35px);
+    gap: 35px;
+    font-family: Montserrat Alternates;
+    margin: auto auto 20px;
+}
+
+.basket_product_path_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0;
+}
+
+.basket_product_path_left {
+    display: grid;
+    place-items: center;
+}
+
+.basket_product_path_right {
+    display: grid;
+    text-align: left;
+}
+
+.basket_product_path_top_icon {
+    transition: .2s;
+}
+.basket_product_path_top_icon:hover {
+    transform: scale(1.2);
+}
+.basket_product_block_img {
+    width: 80%;
+}
+
+.basket_product_block_img_brand {
+    width: 10%;
+}
+
+.basket_product_block_name {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.basket_product_block_cost {
+    text-align: right;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.basket_product_block_size {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: center;
+}
