@@ -1,0 +1,38 @@
+.btnIcon {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+    padding: 0;
+    transition: .2s;
+    /* background: red; */
+}
+.rowAddCheckIcon:hover {
+    transition: .2s;
+    background: rgb(187, 230, 175);
+    border-radius: 5px;
+}
+.rowAddCancelIcon:hover {
+    transition: .2s;
+    background: rgb(230, 175, 175);
+    border-radius: 5px;
+}
+.rowAddClearIcon:hover {
+    transition: .2s;
+    background-color: rgb(187, 203, 235);
+    border-radius: 5px;
+}
+.rowArrForm {
+    margin-top: 10px;
+    user-select: none;
+}
+.rowAddBackIcon {
+    border-radius: 3px;
+    /* width: 16px; */
+    height: 16px;
+}
+.rowAddBackIcon:hover {
+    transition: .2s;
+    background-color: rgb(187, 203, 235);
+    border-radius: 5px;
+}

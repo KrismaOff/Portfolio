@@ -1,0 +1,18 @@
+.addRowDate {
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-bottom: 7px;
+    background-color: rgb(234, 234, 234);
+    width: calc(30% - 24px);
+}
+.addRowContDate {
+    display: flex;
+}
+.addRowDatePlaceholder {
+    user-select: none;
+    width: calc(70% - 40px);
+    margin-right: 16px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.2);
+}

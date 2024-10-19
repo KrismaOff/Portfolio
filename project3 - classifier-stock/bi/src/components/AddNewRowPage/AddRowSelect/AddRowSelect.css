@@ -1,0 +1,38 @@
+.addRowSelectContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.addRowSelect {
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-bottom: 7px;
+    width: calc(100% - 40px);
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.addClassifier {
+    background-color: rgb(234, 234, 234);
+    margin-left: .5%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.addClassifier:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+.touchable {
+    background-color: rgb(234, 234, 234);
+}
+
+.untouchable {
+    background-color: rgb(200, 200, 200);
+    pointer-events: none;
+}

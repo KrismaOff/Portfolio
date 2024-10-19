@@ -1,0 +1,22 @@
+.btnForm {
+    display: flex;
+    justify-content: center;
+}
+
+.btnGroupRow {
+    padding: 8px;
+    border: none;
+    transition: .2s;
+}
+
+.btnGroupRow:hover {
+    background: rgb(197, 197, 197);
+}
+
+.Send {
+    border-radius: 7px 0 0 7px;
+}
+
+.Del {
+    border-radius: 0 7px 7px 0;
+}

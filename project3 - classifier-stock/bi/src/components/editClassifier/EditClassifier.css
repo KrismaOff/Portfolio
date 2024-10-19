@@ -1,0 +1,68 @@
+.editClassifierList {
+    position: absolute;
+
+
+    padding: 10px;
+    user-select: none;
+    font-size: 14px;
+    width: 25%;
+    background: rgba(240, 240, 240, 0.5);
+    /* min-height: 250px; */
+}
+.countClassifierOption {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.editClassifierListContainer {
+    padding: 20px;
+    text-align: left;
+}
+.scroll-block {
+    /* height: 250px; */
+    /* overflow-y: auto; */
+
+    /* height: 250px; */
+    /* min-height: 80px; */
+    height: 200px;
+    overflow-x: auto;
+    /* scroll-behavior: auto; */
+}
+
+
+
+.classifierInput {
+    width: 60%;
+    border-radius: 0px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.classifierBtnGroup {
+    display: flex;
+    width: 61.5%;
+    margin: auto;
+    /* background: red; */
+    /* padding: 10px; */
+}
+.classifierBtn {
+    width: 50%;
+    background: none;
+    border: none;
+    padding: 5px;
+
+    transition: .2s;
+}
+.classifierBtn:hover {
+    background: rgb(230, 230, 230);
+}
+.inputGroup {
+}
+.valInputOld {
+    margin: auto;
+    width: 64%;
+    /* background: red; */
+    font-size: 10px;
+    /* position: absolute; */
+    /* margin-top: .1%; */
+    /* margin-left: .1%; */
+    /* left: 0; */
+}

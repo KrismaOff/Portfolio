@@ -1,0 +1,23 @@
+.AddRowInputColorContainer {
+    width: 100%;
+}
+.colorBlock {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.btnWithoutColor {
+    padding: 10px;
+    /* width: 230px; */
+    /* width: 30%; */
+    border: none;
+    transition: .2s;
+    background-color: rgb(234, 234, 234);
+}
+.btnWithoutColor:hover {
+    background: rgb(216, 216, 216);
+}
+
+.AddRowInputColorContainer input {
+    width: calc(33% - 24px);
+}

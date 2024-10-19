@@ -1,0 +1,20 @@
+/* .inputAddRowGroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: red;
+} */
+.InputsAddRowContainerProblem {
+    margin-bottom: 10%;
+}
+.indexProblemReport {
+    position: relative;
+    margin-left: 10px;
+    width: 27px;
+    height: 27px;
+    background: rgba(255, 0, 0, 0.713);
+}
+/* .inputAddRowGroupProblem {
+    background: red;
+} */

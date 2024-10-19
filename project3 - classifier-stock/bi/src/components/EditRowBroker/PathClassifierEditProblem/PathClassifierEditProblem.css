@@ -1,0 +1,13 @@
+.pathClassifierEditProblem {
+    font-size: 12px;
+    color: gray;
+    margin: auto;
+    margin-bottom: 1%;
+    width: 60%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.activePathClassifieProblem {
+    color: black;
+}

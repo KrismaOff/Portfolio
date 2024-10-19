@@ -1,0 +1,12 @@
+table {
+    margin: auto;
+}
+th {
+    padding: 5px;
+    background-color: rgb(150, 150, 150);
+    font-weight: normal;
+    font-size: 12px;
+}
+tr {
+    background-color: rgba(219, 217, 217, 0.5)
+}

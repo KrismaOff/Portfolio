@@ -1,0 +1,13 @@
+.toggleList {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    
+    outline: none;
+    background: none;
+    border: none;
+    width: 100%;
+}
+.toggleListOpt {
+    background: rgb(192, 192, 192);
+}

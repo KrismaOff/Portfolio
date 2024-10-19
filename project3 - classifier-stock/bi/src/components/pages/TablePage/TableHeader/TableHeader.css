@@ -1,0 +1,11 @@
+.btnAddRow {
+    background-color: rgb(222, 222, 222);
+    transition: .2s;
+}
+.btnAddRow:hover {
+    background-color: rgba(150, 150, 150, 0.5);
+}
+.columnFixed {
+    position: sticky;
+    top: 0;
+}

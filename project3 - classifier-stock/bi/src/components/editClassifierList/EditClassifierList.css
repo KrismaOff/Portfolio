@@ -1,0 +1,24 @@
+.optionClassifierList {
+    user-select: text;
+    display: flex;
+}
+.iconClassifier {
+    
+    transition: .2s;
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+}
+.editClassifier:hover {
+    background: rgb(187, 230, 175);
+}
+.deleteClassifier:hover {
+    background: rgb(230, 175, 175);
+}
+.optionClassifier {
+    /* padding: auto 10px; */
+    /* padding: ; */
+    width: 100%;
+    /* background: rgb(226, 226, 226); */
+    color: green;
+}

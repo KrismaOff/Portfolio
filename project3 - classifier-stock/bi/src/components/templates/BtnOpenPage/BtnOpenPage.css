@@ -1,0 +1,15 @@
+.btnOpenPage {
+    background: rgb(242, 242, 242);
+    padding: 10px;
+    border: none;
+    transition: .2s;
+}
+.btnOpenPage:hover {
+    background: rgb(233, 233, 233);
+}
+.btnOpenPageActive {
+    background: rgb(216, 215, 215);
+    padding: 10px;
+    border: none;
+    transition: .2s; 
+}

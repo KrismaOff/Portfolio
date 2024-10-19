@@ -1,0 +1,19 @@
+.replenishmentDB {
+    margin: 20px;
+}
+
+.checkData {
+    background: rgb(242, 242, 242);
+    padding: 10px;
+    border: none;
+    transition: .2s;
+}
+
+.checkData:hover {
+    background: rgb(233, 233, 233);
+}
+
+.dateDownDB {
+    margin-top: 2%;
+    color: rgba(0, 0, 0, 0.4);
+}

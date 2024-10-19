@@ -1,0 +1,18 @@
+.btnTable {
+    display: flex;
+    transition: .2s;
+}
+.iconBtn {
+    height: 15px;
+}
+
+.iconBtnCont {
+    transition: .2s;
+}
+.btnRowEdit:hover {
+    background: rgb(187, 230, 175);
+}
+.rowDelete:hover {
+    /* width: 100%; */
+    background: rgb(230, 175, 175);
+}
